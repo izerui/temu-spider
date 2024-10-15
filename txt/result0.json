@@ -1,0 +1,3633 @@
+{
+  "success": true,
+  "error_code": 1000000,
+  "result": {
+    "language": "zh-Hans",
+    "region": 211,
+    "currency": "USD",
+    "time_zone": "Asia/Shanghai",
+    "server_time": 1728033279038,
+    "home_goods_list": [
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099614537419&_oak_mp_inf=EMuN%2F8em1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJPYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F2ebb3121-ab46-498c-974f-31f08a36b53e.jpg&spec_gallery_id=2256488030&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTA5OA&_oak_gallery_order=560246407%2C534712598%2C474953342%2C1887148826%2C102404327",
+          "price_info": {
+            "price": 1098,
+            "currency": "USD",
+            "price_str": "$10.98",
+            "market_price": 1499,
+            "market_price_str": "$14.99",
+            "price_text": [
+              "$",
+              "10.98",
+              ""
+            ],
+            "reduction_text": [
+              "-26",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "14.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "10",
+              ".98",
+              ""
+            ],
+            "reduction": 260,
+            "price_schema": "10.98"
+          },
+          "image": {
+            "id": 2256488030,
+            "url": "https://img.kwcdn.com/product/fancy/2ebb3121-ab46-498c-974f-31f08a36b53e.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099614537419,
+          "title": "BH666系列18C半自动玩具枪爆破装置，带有机械爆发和逼真的弹壳弹出，未充电电源模式，塑料制造，包括软子弹组件，适合14岁以上的年龄段",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "560246407",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8RKyS1rb/JKGLw7mOpDkBJVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XUUwzK+fjvlOQCAYpttS9MHGlj6z3EutvgxqzriemR2EQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmBDpqudaQBUCSLKAGrd6r0oIjR07O6bXX6dMCeT9tv5PHIvfeBTf7srBn3Uu0eRc0m4xfr5nG6zs36+jJaBFE5kY+3aLsYUOFBwmBMKlIBs43IG67S7tl0Ij02dnnhRMPEQURhTIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "560246407",
+            "g": "601099614537419",
+            "scene_id": "1",
+            "show_price": "1098",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "0",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2712331507370093841",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099605275830&_oak_mp_inf=ELbpycOm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJPYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F6ab66076-842c-4ba2-bc43-54714e347c2d.jpg&spec_gallery_id=601099605275830&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjI1MQ&_oak_gallery_order=336143830%2C4999036%2C941268575%2C1436169508%2C385137964",
+          "price_info": {
+            "price": 2251,
+            "currency": "USD",
+            "price_str": "$22.51",
+            "market_price": 12000,
+            "market_price_str": "$120.00",
+            "price_text": [
+              "$",
+              "22.51",
+              ""
+            ],
+            "reduction_text": [
+              "-81",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "120.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "22",
+              ".51",
+              ""
+            ],
+            "reduction": 810,
+            "price_schema": "22.51"
+          },
+          "image": {
+            "id": 601099605275830,
+            "url": "https://img.kwcdn.com/product/fancy/6ab66076-842c-4ba2-bc43-54714e347c2d.jpg",
+            "width": 375,
+            "height": 375
+          },
+          "goods_id": 601099605275830,
+          "title": "1pc 多功能男士旅行背包、航空公司认可的笔记本电脑书包、挎包、手提行李袋、带鞋隔层的户外运动背包",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "336143830",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8ykGAHY56CEUNX/fVq/b9Tlzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XJRIFlIn/TF/PZjy+8nsvqgzR8LT/TzQc9lEK1swLqWcQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHtfN6X1BFiiEtQ8QWWP1gGbRSJnncBuwfW/pShrKh/FWO9sKmy9nFahZh9cHCqqyQ2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "336143830",
+            "g": "601099605275830",
+            "scene_id": "1",
+            "show_price": "2251",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "1",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "1813055437365217812",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099620946738&_oak_mp_inf=ELKmhsum1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fa200d661-9e51-4507-a1b5-2592d63dbad9.jpg&spec_gallery_id=2278247928&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NDY2&_oak_gallery_order=677300167%2C1057981201%2C629210796%2C486247428%2C1395137274",
+          "price_info": {
+            "price": 466,
+            "currency": "USD",
+            "price_str": "$4.66",
+            "market_price": 1999,
+            "market_price_str": "$19.99",
+            "price_text": [
+              "$",
+              "4.66",
+              ""
+            ],
+            "reduction_text": [
+              "-76",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "19.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "4",
+              ".66",
+              ""
+            ],
+            "reduction": 760,
+            "price_schema": "4.66"
+          },
+          "image": {
+            "id": 2278247928,
+            "url": "https://img.kwcdn.com/product/fancy/a200d661-9e51-4507-a1b5-2592d63dbad9.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099620946738,
+          "title": "6片可重复使用拖把垫 - 可水洗耐用平面地板布，高吸水性适用于干湿清洁，易于清洁，环保聚酯纤维（不含拖把）",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "677300167",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ899+QH1jzlMuhe3Q6hr9kklzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XSCLFBQkU7mYBHhFAol7rcidvAp2NVk8z89rSwDLE4mwQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHqQoT8rnBxdrOfaJpj97FjS7gS2wGWUzVd82xAF6JZmO8aVFxjhbVv1ilbt4l3veL2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "677300167",
+            "g": "601099620946738",
+            "scene_id": "1",
+            "show_price": "466",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "2",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6244965592795169299",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099629989868&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F051200d7-d769-47c4-9e0e-685e924455bd.jpg&spec_id=16102&spec_gallery_id=6955&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NTk4&_oak_gallery_order=1224973485%2C1831046127%2C1412543574%2C1406333994%2C1009644186&spec_ids=16102,3002,2001,16068,16105&_oak_mp_inf=EOyfrs%2Bm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D",
+          "price_info": {
+            "price": 598,
+            "currency": "USD",
+            "price_str": "$5.98",
+            "market_price": 2999,
+            "market_price_str": "$29.99",
+            "price_text": [
+              "$",
+              "5.98",
+              ""
+            ],
+            "reduction_text": [
+              "-80",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "29.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "5",
+              ".98",
+              ""
+            ],
+            "reduction": 800,
+            "price_schema": "5.98"
+          },
+          "image": {
+            "id": 6955,
+            "url": "https://img.kwcdn.com/product/fancy/051200d7-d769-47c4-9e0e-685e924455bd.jpg",
+            "width": 1340,
+            "height": 1785
+          },
+          "goods_id": 601099629989868,
+          "title": "带侧扣的无线抹胸文胸，性感无肩带尼龙针织面料 - 可拆卸衬垫，交叉肩带细节，成人纯色弹力抹胸 - 尼龙 75%，氨纶 25%",
+          "p_rec": {
+            "skc_id": "17592340594822",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1224973485",
+            "scene": "home",
+            "tsr": "CpABOiUaoHnuvL0OKj1LLT+x7hvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ88WefmKFCDSiDotiPJlupN1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XNlJs1wsSoIKovhpH1nstBRGRVfExznnq1NUy1OFSQtaUd+XRBH5CSqDjMz5TKaGPEH4YgAEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHCRKZ6keb71U689gHsVoBxXogKopmQ+3VOh7LlAHLBXy1X1LTz9MRtBAcvsc9buTb2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1224973485",
+            "g": "601099629989868",
+            "scene_id": "1",
+            "show_price": "598",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "3",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6455270710002406321",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099625366714&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F5a9dc8a5-9a85-425b-8d10-6b891e8236e4.jpg&spec_id=15067&spec_gallery_id=5071&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=OTYz&_oak_gallery_order=2009333535%2C1353007216%2C1147784907%2C1171984534%2C2084435414&spec_ids=15067&_oak_mp_inf=ELqJlM2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D",
+          "price_info": {
+            "price": 963,
+            "currency": "USD",
+            "price_str": "$9.63",
+            "price_text": [
+              "$",
+              "9.63",
+              ""
+            ],
+            "reduction_text": [],
+            "split_price_text": [
+              "$",
+              "9",
+              ".63",
+              ""
+            ],
+            "price_schema": "9.63"
+          },
+          "image": {
+            "id": 5071,
+            "url": "https://img.kwcdn.com/product/fancy/5a9dc8a5-9a85-425b-8d10-6b891e8236e4.jpg",
+            "width": 1340,
+            "height": 1785
+          },
+          "goods_id": 601099625366714,
+          "title": "男士3D骷髅印花连帽衫 - 宽松版型，涤纶材质，带束带的兜帽，前口袋",
+          "p_rec": {
+            "skc_id": "17592315062340",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "2009333535",
+            "scene": "home",
+            "tsr": "CpABOiUaoHnuvL0OKj1LLT+x7hvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8YDpJDAueBW7pNPZAFAz2YFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XSzL34LAgtjZBD+ZXRwwz/W69VEyD29NJbLDMBUdSW8yUd+XRBH5CSqDjMz5TKaGPEH4YgAEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHeRJYfE8Btwh5OAJB+7NS6PEqPADjHoQCkP0128mT/xF9HeUX1wCEJ1bHFZagKy7S2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "2009333535",
+            "g": "601099625366714",
+            "scene_id": "1",
+            "show_price": "963",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "4",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "9191647020253730723",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099537657996&_oak_mp_inf=EIzhqqOm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F5dbf20d2-3b5d-41cb-9e36-183497349cef.jpg&spec_gallery_id=2064368262&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NDM0OA&_oak_gallery_order=917980797%2C1615713648%2C129935981%2C1231339703%2C966469572",
+          "price_info": {
+            "price": 4348,
+            "currency": "USD",
+            "price_str": "$43.48",
+            "market_price": 4799,
+            "market_price_str": "$47.99",
+            "price_text": [
+              "$",
+              "43.48",
+              ""
+            ],
+            "reduction_text": [
+              "-9",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "47.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "43",
+              ".48",
+              ""
+            ],
+            "reduction": 90,
+            "price_schema": "43.48"
+          },
+          "image": {
+            "id": 2064368262,
+            "url": "https://img.kwcdn.com/product/fancy/5dbf20d2-3b5d-41cb-9e36-183497349cef.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099537657996,
+          "title": "豆奶机，21.98oz 电动牛奶机，自动坚果奶机，豆机，自制杏仁，燕麦，椰子，大豆，植物奶和非乳制品饮料，单份，不锈钢，自清洁",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "917980797",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8tZGh0s9QrRRWnbYI9aVCnVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XG/MQeJSerDfeqXgzVlK07sUozwChrFMiOrbNFWrHDpEQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjH57Es+J2Wctk6DJq6ViD0rtJbE53Ggj8MFNSaA7/C48GjeJ3kSwVMjX4tACbKvXaH2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "917980797",
+            "g": "601099537657996",
+            "scene_id": "1",
+            "show_price": "4348",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "5",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6866510417290156730",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099646926923&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fa6a01e5b-53ee-4423-a6f8-66da9c0d72b7.jpg&spec_id=15084&spec_gallery_id=7736&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTA5Nw&_oak_gallery_order=1795277380%2C449824665%2C2111780768&spec_ids=15084&_oak_mp_inf=EMuAuNem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1097,
+            "currency": "USD",
+            "price_str": "$10.97",
+            "market_price": 5090,
+            "market_price_str": "$50.90",
+            "price_text": [
+              "$",
+              "10.97",
+              ""
+            ],
+            "reduction_text": [
+              "-78",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "50.90",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "10",
+              ".97",
+              ""
+            ],
+            "reduction": 780,
+            "price_schema": "10.97"
+          },
+          "image": {
+            "id": 7736,
+            "url": "https://img.kwcdn.com/product/fancy/a6a01e5b-53ee-4423-a6f8-66da9c0d72b7.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099646926923,
+          "title": "（汤姆定向）女士动漫时尚卫衣",
+          "p_rec": {
+            "skc_id": "17592340199597",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1795277380",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8/ngHGdbeg+8WISuy1kpU81zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XAUOm5o8x6m5Gq6C1O7xtNgVZIWqwvvrG8E0dZ7hGY9IVlLLmyLLmY5azGZos2PA3EH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHCB3RLv2aGhTvJmHPGA7jaYp24De9emiaZEKOpl0T0S4BRG4p7isO3kg3bfKj1xcf2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1795277380",
+            "g": "601099646926923",
+            "scene_id": "1",
+            "show_price": "1097",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "6",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2942105098882698857",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099572805687&_oak_mp_inf=ELeAjLSm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJTYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fc2fadc21-e115-4233-9c30-0919186467f0.jpg&spec_gallery_id=2125725051&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NjI5OA&_oak_gallery_order=1865009385%2C1217561269%2C1633796201%2C1148960016%2C1469310960",
+          "price_info": {
+            "price": 6298,
+            "currency": "USD",
+            "price_str": "$62.98",
+            "market_price": 31243,
+            "market_price_str": "$312.43",
+            "price_text": [
+              "$",
+              "62.98",
+              ""
+            ],
+            "reduction_text": [
+              "-79",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "312.43",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "62",
+              ".98",
+              ""
+            ],
+            "reduction": 790,
+            "price_schema": "62.98"
+          },
+          "image": {
+            "id": 2125725051,
+            "url": "https://img.kwcdn.com/product/fancy/c2fadc21-e115-4233-9c30-0919186467f0.jpg",
+            "width": 1560,
+            "height": 1560
+          },
+          "goods_id": 601099572805687,
+          "title": "带手持式喷雾组合的淋浴喷头，带 13 模式淋浴棒的 4 英寸雨淋花洒喷头，以及 13 英寸可调臂、3 通淋浴分流阀、超长软管（哑光黑色）",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1865009385",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ88VAOUO02OBlENhHn32Njllzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XcMt2o5M2Bv07AcsE3DuLPU5I7uDG7YeodZc09nxhNO8Qdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHhT3l54Fo9s5JxHkosWzJuMTB0VjaH21IqSMb8xlgLLdQxxVCFS3uk589zYxeqxg62NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1865009385",
+            "g": "601099572805687",
+            "scene_id": "1",
+            "show_price": "6298",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "7",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "8228826833514964551",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099582288626&_oak_mp_inf=EPLlzrim1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F3456d81f-c814-48c5-960b-35ff1d7b9831.jpg&spec_gallery_id=2192600582&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=Mjk2&_oak_gallery_order=790461247%2C645765009%2C1850257713%2C1163672892%2C412678948",
+          "price_info": {
+            "price": 296,
+            "currency": "USD",
+            "price_str": "$2.96",
+            "market_price": 3099,
+            "market_price_str": "$30.99",
+            "price_text": [
+              "$",
+              "2.96",
+              ""
+            ],
+            "reduction_text": [
+              "-90",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "30.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "2",
+              ".96",
+              ""
+            ],
+            "reduction": 900,
+            "price_schema": "2.96"
+          },
+          "image": {
+            "id": 2192600582,
+            "url": "https://img.kwcdn.com/product/fancy/3456d81f-c814-48c5-960b-35ff1d7b9831.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099582288626,
+          "title": "千鸟格储物盒、衣毯储物袋、带把手的储物容器、壁橱收纳盒",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "790461247",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ87RJ26n0Oh4bCWrRM+k3muFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XL1jRbid9Jc9qdSoR5jF/VSJnWyqWDn9HeIfz5YcBs4kQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHqfGzwY/xmAeVGKKf60Ms4eeaDztvDPfOJs8/RhB34jdAGxSvnpE+l+zbwICc48bC2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "790461247",
+            "g": "601099582288626",
+            "scene_id": "1",
+            "show_price": "296",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "8",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6177265124613601415",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099627330774&_oak_mp_inf=ENb5i86m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fafb62f32-6b64-4fc7-aa7f-ee7a95f0bf1b.jpg&spec_gallery_id=2294534312&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTU5Ng&_oak_gallery_order=495668022%2C91511311%2C1990387484%2C1239587242%2C982773090",
+          "price_info": {
+            "price": 1596,
+            "currency": "USD",
+            "price_str": "$15.96",
+            "market_price": 2999,
+            "market_price_str": "$29.99",
+            "price_text": [
+              "$",
+              "15.96",
+              ""
+            ],
+            "reduction_text": [
+              "-46",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "29.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "15",
+              ".96",
+              ""
+            ],
+            "reduction": 460,
+            "price_schema": "15.96"
+          },
+          "image": {
+            "id": 2294534312,
+            "url": "https://img.kwcdn.com/product/fancy/afb62f32-6b64-4fc7-aa7f-ee7a95f0bf1b.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099627330774,
+          "title": "120色酒精记号笔，双尖搅拌机艺术绘图记号笔套装，专业永久素描记号笔，用于成人着色插图，带整理盒，垫",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "495668022",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8jdMPZTG3NhMY3JsZX2T9vFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8Xzqse0WhOIMVSNoP2QqLrJRtMBMGN7lU68r3RZrwtfCsQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHl+BwK6aygySbO49KH4dyAzo88Rdm/d/UBTwNfENPIpuE0PSJOUs0fvEsClufayMj2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "495668022",
+            "g": "601099627330774",
+            "scene_id": "1",
+            "show_price": "1596",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "9",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "5523590372153800304",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=602515911325052&_oak_mp_inf=EPzq9tbC%2F4gBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Flocal-goods-image%2F1f23586190%2Fbb961bc0-6cc9-4ecd-8062-dd99bfd5f67d_1600x1600.jpeg&spec_gallery_id=2208335316&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTc4OTk&_oak_gallery_order=1818054180%2C50035316%2C1476070047%2C144972050%2C821393394",
+          "price_info": {
+            "price": 17899,
+            "currency": "USD",
+            "price_str": "$178.99",
+            "market_price": 21999,
+            "market_price_str": "$219.99",
+            "price_text": [
+              "$",
+              "178.99",
+              ""
+            ],
+            "reduction_text": [
+              "-18",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "219.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "178",
+              ".99",
+              ""
+            ],
+            "price_schema": "178.99"
+          },
+          "image": {
+            "id": 2208335316,
+            "url": "https://img.kwcdn.com/local-goods-image/1f23586190/bb961bc0-6cc9-4ecd-8062-dd99bfd5f67d_1600x1600.jpeg",
+            "width": 1600,
+            "height": 1600
+          },
+          "goods_id": 602515911325052,
+          "title": "SISIGAD 300W 折叠式电动滑板车，8.5英寸实心轮胎，电动滑板车15英里长距离，16英里/小时速度，可折叠的通勤电动滑板车，适合成年人",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1818054180",
+            "scene": "home",
+            "tsr": "CoABhUUMcBXnsVYrS+mvr4curhvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8aY5maw1ISfulZ1f6dOmn6lzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XZXwbyQesr+7PCSHrzBBfjy+TSNMfLQoKFByekuTnnZAQeBh6IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHGr8l1xRU2gKr9iBFhn73hEayBcRtBYfxZEiZyCCMCmfLkZtZIjfWJE2aiHYNrHh+2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1818054180",
+            "g": "602515911325052",
+            "scene_id": "1",
+            "show_price": "17899",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "10",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "7487354388454801952",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099592872394&_oak_mp_inf=EMrj1L2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F96bc205a-3f70-4b70-8c63-b48694152f98.jpg&spec_gallery_id=2199283069&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NjI5&_oak_gallery_order=1307532191%2C1335984380%2C1362127256%2C1183264415%2C1783048449",
+          "price_info": {
+            "price": 629,
+            "currency": "USD",
+            "price_str": "$6.29",
+            "market_price": 2520,
+            "market_price_str": "$25.20",
+            "price_text": [
+              "$",
+              "6.29",
+              ""
+            ],
+            "reduction_text": [
+              "-75",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "25.20",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "6",
+              ".29",
+              ""
+            ],
+            "reduction": 750,
+            "price_schema": "6.29"
+          },
+          "image": {
+            "id": 2199283069,
+            "url": "https://img.kwcdn.com/product/fancy/96bc205a-3f70-4b70-8c63-b48694152f98.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099592872394,
+          "title": "1卷（400张），懒抹布，一次性厨房纸巾，可水洗干湿两用毛巾，洗碗布，不粘油抹布，脱脂巾，家用清洁抹布，烘干布，清洁用品，清洁工具",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1307532191",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8EkpR9yiJFuiJhQb0AzEJ5lzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XvgW9K1aUdN9Q34GgqAsKfRLRCgo1l48Ku/S88FO8gfoQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAYoztz9SJKd2C0AVydMIjHibiHvSwOrLARk1GIpWowsKW3TJ84jgKpXI/KNyBLpYOuNH+CabbMYzqvqBy/Z3H12NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1307532191",
+            "g": "601099592872394",
+            "scene_id": "1",
+            "show_price": "629",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "11",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "1019654287598083518",
+            "ts": "1728033025070"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099603791017&_oak_mp_inf=EKmZ78Km1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F933172be-5b34-42b9-8e1e-a8de7ed984f4.jpg&spec_gallery_id=2245757949&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=ODQ4&_oak_gallery_order=2135565985%2C612636344%2C1727248988%2C1106490125%2C1979308913",
+          "price_info": {
+            "price": 848,
+            "currency": "USD",
+            "price_str": "$8.48",
+            "market_price": 999,
+            "market_price_str": "$9.99",
+            "price_text": [
+              "$",
+              "8.48",
+              ""
+            ],
+            "reduction_text": [
+              "-15",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "9.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "8",
+              ".48",
+              ""
+            ],
+            "reduction": 150,
+            "price_schema": "8.48"
+          },
+          "image": {
+            "id": 2245757949,
+            "url": "https://img.kwcdn.com/product/fancy/933172be-5b34-42b9-8e1e-a8de7ed984f4.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099603791017,
+          "title": "1pc可充电电动足部研磨机，三个可更换研磨头，用于厚皮革抛光的厚度研磨头，USB充电，便携且易于使用，开裂和干燥的皮肤护理",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "2135565985",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8Hr8FNEKOyYkbmX3+MJZ6Wlzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XcDWy9Dz1aLCOy5rsUPRR339BnUAMvjTlNNBnsZU49yQQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbWFWZpchKfotcqL5MZ/Wry0yWx5mqpzAdj6wYhIS+ZqfAhsR5gjrwy2Q+E0pImckp2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "2135565985",
+            "g": "601099603791017",
+            "scene_id": "1",
+            "show_price": "848",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "12",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "9054474439714148720",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099541786882&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fb26c6aad-3546-4e7d-83b0-db8af7c79005.jpg&spec_id=2001&spec_gallery_id=2108&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTE3Nw&_oak_gallery_order=1062178020%2C1299015415%2C348143960%2C1030872021%2C317468327&spec_ids=2001,2,16086&_oak_mp_inf=EILipqWm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1177,
+            "currency": "USD",
+            "price_str": "$11.77",
+            "market_price": 2999,
+            "market_price_str": "$29.99",
+            "price_text": [
+              "$",
+              "11.77",
+              ""
+            ],
+            "reduction_text": [
+              "-60",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "29.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "11",
+              ".77",
+              ""
+            ],
+            "reduction": 600,
+            "price_schema": "11.77"
+          },
+          "image": {
+            "id": 2108,
+            "url": "https://img.kwcdn.com/product/fancy/b26c6aad-3546-4e7d-83b0-db8af7c79005.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099541786882,
+          "title": "两件套卡通头像图案短款T恤和波点宽腿裤套装，流动裤",
+          "p_rec": {
+            "skc_id": "17592221365814",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1062178020",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8RkwOhp1lkOJpOvDzuUF1M1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XQ57iqrXZQ4yLfKd52K4m14D8fafijuH9kOd2yzRtlQ69+MFvZET5kpq330DSRvDEEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbWpNUNNX29RaVeFCnZbOdkd/aUL4UkEXVZ+XOhGc4HMqIP3RUk2vHg4LXATmwvDoK2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1062178020",
+            "g": "601099541786882",
+            "scene_id": "1",
+            "show_price": "1177",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "13",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "1898025258537875248",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099657122409&_oak_mp_inf=EOmkptym1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJXYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2024-09-02%2F1725271964131-d6efd03009ff476b9c7bb9599144da2d-goods.jpeg&spec_gallery_id=2408485846&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjY5&_oak_gallery_order=1334070124%2C1195886769%2C212962653%2C1580928017%2C1289313414",
+          "price_info": {
+            "price": 269,
+            "currency": "USD",
+            "price_str": "$2.69",
+            "market_price": 449,
+            "market_price_str": "$4.49",
+            "price_text": [
+              "$",
+              "2.69",
+              ""
+            ],
+            "reduction_text": [
+              "-40",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "4.49",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "2",
+              ".69",
+              ""
+            ],
+            "reduction": 400,
+            "price_schema": "2.69"
+          },
+          "image": {
+            "id": 2408485846,
+            "url": "https://img.kwcdn.com/product/open/2024-09-02/1725271964131-d6efd03009ff476b9c7bb9599144da2d-goods.jpeg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099657122409,
+          "title": "一套20只迷你夜光动物手办 - 发光塑料饰品，适用于DIY珠宝、手工艺品和手袋配饰，盲袋混合装，适用于派对小礼物和装饰",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1334070124",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8fPrsCo9KT7tbfxWOSumFV1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XVXFLonoEDLEF60Kjt7dUFDlbBbPT4Jj77jFTZnB4dQMQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVb+UMW7mdPYHEpRCiXKTlVSYa4SXidn7hPzo/c9DhKJM6763OFRCC5Nrbw+qqDOmOz2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1334070124",
+            "g": "601099657122409",
+            "scene_id": "1",
+            "show_price": "269",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "14",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "7298761809020015813",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099532311282&_oak_mp_inf=EPK15KCm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2Fa97ece00e4d75382d51fe9436d003e64.jpg&spec_gallery_id=2054045615&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjY4OQ&_oak_gallery_order=165837047%2C422588192%2C685003171%2C275082457%2C165114160",
+          "price_info": {
+            "price": 2689,
+            "currency": "USD",
+            "price_str": "$26.89",
+            "market_price": 13203,
+            "market_price_str": "$132.03",
+            "price_text": [
+              "$",
+              "26.89",
+              ""
+            ],
+            "reduction_text": [
+              "-79",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "132.03",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "26",
+              ".89",
+              ""
+            ],
+            "reduction": 790,
+            "price_schema": "26.89"
+          },
+          "image": {
+            "id": 2054045615,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/a97ece00e4d75382d51fe9436d003e64.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099532311282,
+          "title": "1 件全新设计 PU 皮革通用汽车坐垫套，适用于前排，四季通用内饰座椅套配件",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "165837047",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8J5HQCqVAYQLJx/HCev4781zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XqwKS1VpQzY7vGadmpQ/dRheDse+3O8/9Xa1x9hK8ockQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAbHaNpebdNW93oHCyyJ8MtByls5scw+0xgtZJYFBau9SgY40J4o2fsg8uKqgyJhNkyc7qq8Wd6x7t5lzrmVIFa7zdxrsFlmEVXpPmdhdP0GHR5B+/Lb3QQSFR62kcp6MUQUhhUIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "165837047",
+            "g": "601099532311282",
+            "scene_id": "1",
+            "show_price": "2689",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "15",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "7170025875473463038",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099613834282&_oak_mp_inf=EKqY1Mem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2024-07-16%2F1721101963820-c6e03b53a8f243099539bdf71a532534-goods.jpeg&spec_gallery_id=601099613834282&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjU5OA&_oak_gallery_order=1282895356%2C2038122690%2C1939295710%2C183868790%2C547600574",
+          "price_info": {
+            "price": 2598,
+            "currency": "USD",
+            "price_str": "$25.98",
+            "market_price": 11916,
+            "market_price_str": "$119.16",
+            "price_text": [
+              "$",
+              "25.98",
+              ""
+            ],
+            "reduction_text": [
+              "-78",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "119.16",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "25",
+              ".98",
+              ""
+            ],
+            "reduction": 780,
+            "price_schema": "25.98"
+          },
+          "image": {
+            "id": 601099613834282,
+            "url": "https://img.kwcdn.com/product/open/2024-07-16/1721101963820-c6e03b53a8f243099539bdf71a532534-goods.jpeg",
+            "width": 375,
+            "height": 375
+          },
+          "goods_id": 601099613834282,
+          "title": "1pc 黑色节省空间的 2 层碗碟架 |多隔间和易排水系统 |带餐具和杯架的厨房组织者",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1282895356",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8jXjO1Z/5kCXNR87U6jQkSFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XwAcpWGw7pJGKZBAQLDibTqCdN0Mv0MGv6eJCXUoBhFwQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbOCDP1o1QoaO4FMwnMekyOEHAAphq3R5lOBM/k7t0Im6XKUAd71ZXvTHN4r6Wfl1v2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1282895356",
+            "g": "601099613834282",
+            "scene_id": "1",
+            "show_price": "2598",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "16",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "8806776417522229579",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099604237602&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F99447d07-5082-4515-8628-69e12dea46e3.jpg&spec_id=16068&spec_gallery_id=4690&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTUyOQ&_oak_gallery_order=1579748013%2C149055956%2C1184456358%2C422619746%2C606249806&spec_ids=16068&_oak_mp_inf=EKK6isOm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1529,
+            "currency": "USD",
+            "price_str": "$15.29",
+            "market_price": 2048,
+            "market_price_str": "$20.48",
+            "price_text": [
+              "$",
+              "15.29",
+              ""
+            ],
+            "reduction_text": [
+              "-25",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "20.48",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "15",
+              ".29",
+              ""
+            ],
+            "reduction": 250,
+            "price_schema": "15.29"
+          },
+          "image": {
+            "id": 4690,
+            "url": "https://img.kwcdn.com/product/fancy/99447d07-5082-4515-8628-69e12dea46e3.jpg",
+            "width": 1340,
+            "height": 1786
+          },
+          "goods_id": 601099604237602,
+          "title": "花卉＆蜜蜂图案圆领毛衣，秋季和冬季休闲长袖毛衣，女装",
+          "p_rec": {
+            "skc_id": "17592291301279",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1579748013",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8PNYO612b3mrAe0mZ+929klzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XgOYBV7QeEU+XmwBB1K9tBErItjKmqKU9rf7gjuwpyNOvBlc2eQXUl+LQMKIg1XZnEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbMJJvZXefK0ayfeOPi7D9WCWNrlI3eCTt0SMV6BfLQVT5UCf44TV+KnPZZdtfY0AT2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1579748013",
+            "g": "601099604237602",
+            "scene_id": "1",
+            "show_price": "1529",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "17",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6762833261813854307",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099587755982&_oak_mp_inf=EM6%2FnLum1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fb2a40809-858e-4f62-a36b-e44db77a9cef.jpg&spec_gallery_id=2167753964&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NDU0OA&_oak_gallery_order=1557084398%2C1737168045%2C30981180%2C1297494520%2C22737772",
+          "price_info": {
+            "price": 4548,
+            "currency": "USD",
+            "price_str": "$45.48",
+            "market_price": 22429,
+            "market_price_str": "$224.29",
+            "price_text": [
+              "$",
+              "45.48",
+              ""
+            ],
+            "reduction_text": [
+              "-79",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "224.29",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "45",
+              ".48",
+              ""
+            ],
+            "reduction": 790,
+            "price_schema": "45.48"
+          },
+          "image": {
+            "id": 2167753964,
+            "url": "https://img.kwcdn.com/product/fancy/b2a40809-858e-4f62-a36b-e44db77a9cef.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099587755982,
+          "title": "4层可折叠储物柜，带门和轮子的塑料杂物收纳盒，可堆叠的大容量家庭组织，用于卧室，客厅，厨房，易于组装和节省空间的设计",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1557084398",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8HRnF3oUwfwsqu9i9HiT+uVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8Xz51uPpeLm8FJA0z8bcUrh3wlPndVB+BSbHaG9OiUsoAQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVblYfdjWy60kml1BVMnQWFJVH5r/V5L0IqptjYOCjRAoyRps2jETrtv75qFaJv9QSK2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1557084398",
+            "g": "601099587755982",
+            "scene_id": "1",
+            "show_price": "4548",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "18",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "8890533913568372632",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099619810718&_oak_mp_inf=EJ77wMqm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2024-07-23%2F1721723281601-633e9172b49b428ababa1f39bcb0e723-goods.jpeg&spec_gallery_id=2281238313&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=OTk3&_oak_gallery_order=924408914%2C1883325904%2C908438602%2C455818516%2C1000487624",
+          "price_info": {
+            "price": 997,
+            "currency": "USD",
+            "price_str": "$9.97",
+            "market_price": 3975,
+            "market_price_str": "$39.75",
+            "price_text": [
+              "$",
+              "9.97",
+              ""
+            ],
+            "reduction_text": [
+              "-74",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "39.75",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "9",
+              ".97",
+              ""
+            ],
+            "reduction": 740,
+            "price_schema": "9.97"
+          },
+          "image": {
+            "id": 2281238313,
+            "url": "https://img.kwcdn.com/product/open/2024-07-23/1721723281601-633e9172b49b428ababa1f39bcb0e723-goods.jpeg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099619810718,
+          "title": "2 件式汽车座椅套采用绗缝设计 - 适合大多数车型，耐用且易于清洁",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "924408914",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8wb8Dj9eJBH9CRaAOoQJPxVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X6DBB/L5QJZ8zK5PYQbepC45GiTJycx1fYjNDDKz+CwAQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVb8U1gcNU+iAgmj2DjHzJHbMiM74Gx24o1TLnwgOqXZyH8sQlOvcBcha5Cz1JBeXI12NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "924408914",
+            "g": "601099619810718",
+            "scene_id": "1",
+            "show_price": "997",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "19",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2234850958411040259",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099523669101&_oak_mp_inf=EO341Jym1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2023-08-17%2F1692233456630-22dab00cbe87459ea61f4c581e7922a4-goods.jpeg&spec_gallery_id=2023504822&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=Nzc3&_oak_gallery_order=1841285654%2C529665949%2C1636200668%2C1481201379%2C390612178",
+          "price_info": {
+            "price": 777,
+            "currency": "USD",
+            "price_str": "$7.77",
+            "market_price": 4084,
+            "market_price_str": "$40.84",
+            "price_text": [
+              "$",
+              "7.77",
+              ""
+            ],
+            "reduction_text": [
+              "-80",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "40.84",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "7",
+              ".77",
+              ""
+            ],
+            "reduction": 800,
+            "price_schema": "7.77"
+          },
+          "image": {
+            "id": 2023504822,
+            "url": "https://img.kwcdn.com/product/open/2023-08-17/1692233456630-22dab00cbe87459ea61f4c581e7922a4-goods.jpeg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099523669101,
+          "title": "50 件波西米亚风格戒指套装时尚花朵/皇冠/几何设计镶嵌绿松石混搭日常服装盲袋与不确定的风格",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1841285654",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8SV89Pl1JwJDVkacqFjq8DVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XQt0aTqXZ9aBLlBj4GovJL28ZJqwEP2xvCWCK+pa/YqQQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVb/UTkqQ8XqXkheQOVvfXJvuixAQ7hzC8rrIDfcwXF5HMY3NU9ltbcgn52Qs+JEHw02NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1841285654",
+            "g": "601099523669101",
+            "scene_id": "1",
+            "show_price": "777",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "20",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "9193085304059808897",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099573002983&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F8f8f5c59-7dcb-4e18-b440-8e06c8dc7cca.jpg&spec_id=15071&spec_gallery_id=3394&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjU1OQ&_oak_gallery_order=1300873994%2C1331441166%2C1800469686%2C2146235855%2C386317889&spec_ids=15071&_oak_mp_inf=EOeFmLSm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D",
+          "price_info": {
+            "price": 2559,
+            "currency": "USD",
+            "price_str": "$25.59",
+            "market_price": 2849,
+            "market_price_str": "$28.49",
+            "price_text": [
+              "$",
+              "25.59",
+              ""
+            ],
+            "reduction_text": [
+              "-10",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "28.49",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "25",
+              ".59",
+              ""
+            ],
+            "reduction": 100,
+            "price_schema": "25.59"
+          },
+          "image": {
+            "id": 3394,
+            "url": "https://img.kwcdn.com/product/fancy/8f8f5c59-7dcb-4e18-b440-8e06c8dc7cca.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099573002983,
+          "title": "休闲字母印花毛茸茸的裤子套装，长袖纽扣装饰泰迪熊连帽衫和松紧腰慢跑裤服装，女装",
+          "p_rec": {
+            "skc_id": "17592256507762",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1300873994",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ875tUz5YFqJuMNyOtUWzRglzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XXTPOppPeqNzcgU0wXPJVwlG8epRUhLUMPGQ807Tt2e6z2sdVZHYWgzDMkXdFr2ebEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVb8WxwLe7iCiaWrZQ8MLCGXJn+7DkDMZr80sWUkzkUp1cpp1cj9GQl7jV3G6rQoeRI2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1300873994",
+            "g": "601099573002983",
+            "scene_id": "1",
+            "show_price": "2559",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "21",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4578042678388931007",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099612483317&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fe34cf87a-4c12-423e-9781-abe9581126cc.jpg&spec_id=21263&spec_gallery_id=4131&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjM5Mw&_oak_gallery_order=658428382%2C1791431545%2C270937917%2C1396493330%2C58695051&spec_ids=21263&_oak_mp_inf=EPXdgcem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D",
+          "price_info": {
+            "price": 2393,
+            "currency": "USD",
+            "price_str": "$23.93",
+            "market_price": 3179,
+            "market_price_str": "$31.79",
+            "price_text": [
+              "$",
+              "23.93",
+              ""
+            ],
+            "reduction_text": [
+              "-24",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "31.79",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "23",
+              ".93",
+              ""
+            ],
+            "reduction": 240,
+            "price_schema": "23.93"
+          },
+          "image": {
+            "id": 4131,
+            "url": "https://img.kwcdn.com/product/fancy/e34cf87a-4c12-423e-9781-abe9581126cc.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099612483317,
+          "title": "5 件 \"WHATEVER\" 字母印花男士渐变圆领短袖T恤，休闲夏季T恤，适合日常穿着和度假",
+          "p_rec": {
+            "skc_id": "17592300632911",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "658428382",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8dqpCIAK9djYgpcy03+I9f1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X7bM3HPOv9mZIU+bp6eO69CEP1YiYOFhSlCNU338X0SOLAxBYBB7RofAIvBGZ308AEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVb/AFsC0dLp3eJUVdUNPxoCOWdxRceWDMDtsazmh8B1OClu9OXerTfIVnw0hPJeMoj2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "658428382",
+            "g": "601099612483317",
+            "scene_id": "1",
+            "show_price": "2393",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "22",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "1909333400442474072",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099628040049&_oak_mp_inf=EPGet86m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJbYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F54fbe1c3-421d-4fa4-80bf-b10819f2f659.jpg&spec_gallery_id=601099628040049&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=ODA5OA&_oak_gallery_order=527289070%2C1301502034%2C521167755%2C315259053%2C424102493",
+          "price_info": {
+            "price": 8098,
+            "currency": "USD",
+            "price_str": "$80.98",
+            "market_price": 18900,
+            "market_price_str": "$189.00",
+            "price_text": [
+              "$",
+              "80.98",
+              ""
+            ],
+            "reduction_text": [
+              "-57",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "189.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "80",
+              ".98",
+              ""
+            ],
+            "reduction": 570,
+            "price_schema": "80.98"
+          },
+          "image": {
+            "id": 601099628040049,
+            "url": "https://img.kwcdn.com/product/fancy/54fbe1c3-421d-4fa4-80bf-b10819f2f659.jpg",
+            "width": 375,
+            "height": 375
+          },
+          "goods_id": 601099628040049,
+          "title": "游戏/办公椅，带按摩腰部支撑，复古风格PU皮革高背可调节旋转工作椅，带脚踏",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "527289070",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8SbPBSH/cc5//ig/X9xfSh1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XStQN7i+Czv5T9h4QmW54vml+qzcoWxi2CNeWsvBtWPYQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbLSUVkpiTgHEQGYag5Vld9ky+UmzeawB08xkt/LX0livWwecB1GJA84DXwc1Glx8G2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "527289070",
+            "g": "601099628040049",
+            "scene_id": "1",
+            "show_price": "8098",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "23",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2185192782910559642",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099529361341&_oak_mp_inf=EL2vsJ%2Bm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2F9123175d2fbab125917624e434f3cff4.jpg&spec_gallery_id=2041879492&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MzE3&_oak_gallery_order=1032462104%2C3970625%2C1127473263%2C1764973166%2C2083749173",
+          "price_info": {
+            "price": 317,
+            "currency": "USD",
+            "price_str": "$3.17",
+            "market_price": 1450,
+            "market_price_str": "$14.50",
+            "price_text": [
+              "$",
+              "3.17",
+              ""
+            ],
+            "reduction_text": [
+              "-78",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "14.50",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "3",
+              ".17",
+              ""
+            ],
+            "reduction": 780,
+            "price_schema": "3.17"
+          },
+          "image": {
+            "id": 2041879492,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/9123175d2fbab125917624e434f3cff4.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099529361341,
+          "title": "1pcs 褪色梳专业理发剪混合平顶理发梳耐热渐变梳沙龙造型工具",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1032462104",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8Q7TsUmlqQIXTEq8ZgCOS6Fzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X1bwbxt9Lg1BgGS0rTuEXY5rGYed03PRn6zHH4az9S6AQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbIlA+Bgo+B8GtzEULnXOQCwx6piO3D/R+BK1+3ss9cnw2jTS9G904GP1CMjFU3Vz52NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1032462104",
+            "g": "601099529361341",
+            "scene_id": "1",
+            "show_price": "317",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "24",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2469645120399053884",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099575926899&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ff3f85e4f-63f1-4e12-b182-2ea81cbe081e.jpg&spec_id=2001&spec_gallery_id=2755&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTI5Nw&_oak_gallery_order=275468338%2C679596080%2C365786970%2C37162500%2C2113852639&spec_ids=2001,2,15084,15092,16085,22028,15068,16102,15067,16057,16060,16053,15089&_oak_mp_inf=EPPAyrWm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1297,
+            "currency": "USD",
+            "price_str": "$12.97",
+            "market_price": 6856,
+            "market_price_str": "$68.56",
+            "price_text": [
+              "$",
+              "12.97",
+              ""
+            ],
+            "reduction_text": [
+              "-81",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "68.56",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "12",
+              ".97",
+              ""
+            ],
+            "reduction": 810,
+            "price_schema": "12.97"
+          },
+          "image": {
+            "id": 2755,
+            "url": "https://img.kwcdn.com/product/fancy/f3f85e4f-63f1-4e12-b182-2ea81cbe081e.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099575926899,
+          "title": "双排扣翻领泰迪熊大衣，百搭长袖纹理保暖冬季外套，女士服装",
+          "p_rec": {
+            "skc_id": "17592259723050",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "275468338",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8eBDW/sL4BRxig765x0oRlFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X/iEGTeyRLyZ/J432CHiXHLrPDe/FXlYVwET+5CoLiGgMZIcn7kF9TC2qE5I0OY0QEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbVnIBZH0eunqUUI/KMCYiRfU6VMq8mFXTs4tF47AJ65vrT/k1IqOhW6rBUUO6YQ+S2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "275468338",
+            "g": "601099575926899",
+            "scene_id": "1",
+            "show_price": "1297",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "25",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "3760419372405414328",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099645912472&_oak_mp_inf=EJiL%2Btam1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F1ce89dc5-2f4f-4ece-84c8-c503935808f4.jpg&spec_gallery_id=2346990522&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MzI4NA&_oak_gallery_order=618438993%2C779270956%2C1652653199%2C802871085%2C255759788",
+          "price_info": {
+            "price": 3284,
+            "currency": "USD",
+            "price_str": "$32.84",
+            "market_price": 11199,
+            "market_price_str": "$111.99",
+            "price_text": [
+              "$",
+              "32.84",
+              ""
+            ],
+            "reduction_text": [
+              "-70",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "111.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "32",
+              ".84",
+              ""
+            ],
+            "reduction": 700,
+            "price_schema": "32.84"
+          },
+          "image": {
+            "id": 2346990522,
+            "url": "https://img.kwcdn.com/product/fancy/1ce89dc5-2f4f-4ece-84c8-c503935808f4.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099645912472,
+          "title": "1 件，可折叠手推车，330 磅重型多功能花园手推车，配有全地形轮，适用于海滩、草坪、运动、露营，黑色，30 英寸",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "618438993",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8zimHTkkdIzHhCmJgWBe5klzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X02y+h/1sDCCLJ/IfhFHBOFkWRjBq0lFkfE5V2Nq5VygQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbzv791b14CU2KRwv/NJ0zdwohcYYkdunAKF8K36hN3K/xGdvdyUkQAAJtuIHyMd5u2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "618438993",
+            "g": "601099645912472",
+            "scene_id": "1",
+            "show_price": "3284",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "26",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "7770149800300554384",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099597113028&_oak_mp_inf=EMTN17%2Bm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F9cebf168-a1f6-4efe-a314-f8a621a8f7b0.jpg&spec_gallery_id=2248223415&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=Nzk4&_oak_gallery_order=1214285221%2C838891090%2C489702254%2C1238903105%2C1660509326",
+          "price_info": {
+            "price": 798,
+            "currency": "USD",
+            "price_str": "$7.98",
+            "market_price": 7631,
+            "market_price_str": "$76.31",
+            "price_text": [
+              "$",
+              "7.98",
+              ""
+            ],
+            "reduction_text": [
+              "-89",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "76.31",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "7",
+              ".98",
+              ""
+            ],
+            "reduction": 890,
+            "price_schema": "7.98"
+          },
+          "image": {
+            "id": 2248223415,
+            "url": "https://img.kwcdn.com/product/fancy/9cebf168-a1f6-4efe-a314-f8a621a8f7b0.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099597113028,
+          "title": "一块防滑硅藻土浴垫，超吸水快干柔软淋浴地垫，可机洗，适用于卫生间和卧室，家用浴室地毯，厨房和洗衣房地毯，淋浴配件 - 无香味，无需电源，无需电池",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1214285221",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8urNQ2YOWPPxLvPSXJiK/3Fzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XqXPMN5f/O4d1PQs1hpFx0O8y5cLtF7slqV5JjlEsH18Qdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbFIP6nAZW9FH936v8C3pm6BuTg/ezoUr34jlssifUHFtp2101M9foYAsrT5fdzqRN2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1214285221",
+            "g": "601099597113028",
+            "scene_id": "1",
+            "show_price": "798",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "27",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4722849271257093739",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099515354116&_oak_mp_inf=EIS42Zim1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2023-03-15%2F1678872991456-2a7c52e9430f4b43af87a863aef840b0-goods.jpeg&spec_gallery_id=27594468&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=OTk4&_oak_gallery_order=1825403863%2C521148406%2C140154592%2C529225442%2C11556596",
+          "price_info": {
+            "price": 998,
+            "currency": "USD",
+            "price_str": "$9.98",
+            "market_price": 5000,
+            "market_price_str": "$50.00",
+            "price_text": [
+              "$",
+              "9.98",
+              ""
+            ],
+            "reduction_text": [
+              "-80",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "50.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "9",
+              ".98",
+              ""
+            ],
+            "reduction": 800,
+            "price_schema": "9.98"
+          },
+          "image": {
+            "id": 27594468,
+            "url": "https://img.kwcdn.com/product/open/2023-03-15/1678872991456-2a7c52e9430f4b43af87a863aef840b0-goods.jpeg",
+            "width": 1500,
+            "height": 1500
+          },
+          "goods_id": 601099515354116,
+          "title": "提升您的WiFi信号至300Mbps - 远程无线中继接入点",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1825403863",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8c1RUV1lgvxcaauplBw5IS1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XpjxCNPFh1NrxTL7v3oGsATHOWA2svOa5B4SdV+jo1zMQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCzrU9xTDsFCtntBIqdEmVbw1f/1sqiHhlzG2jCFyW1Ve4Pwe6mcFLrjVW7Ue6kSfxSnPrwmSoGtwbaTKAkNeKS2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1825403863",
+            "g": "601099515354116",
+            "scene_id": "1",
+            "show_price": "998",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "28",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6137237412731950065",
+            "ts": "1728033025071"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099598649135&_oak_mp_inf=EK%2ButcCm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fed250977-2ed4-4ac8-935d-6940272fe12a.jpg&spec_gallery_id=601099598649135&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NTA5&_oak_gallery_order=1297152290%2C1641032056%2C2043548526%2C1227556995%2C1286210497",
+          "price_info": {
+            "price": 509,
+            "currency": "USD",
+            "price_str": "$5.09",
+            "market_price": 899,
+            "market_price_str": "$8.99",
+            "price_text": [
+              "$",
+              "5.09",
+              ""
+            ],
+            "reduction_text": [
+              "-43",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "8.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "5",
+              ".09",
+              ""
+            ],
+            "reduction": 430,
+            "price_schema": "5.09"
+          },
+          "image": {
+            "id": 601099598649135,
+            "url": "https://img.kwcdn.com/product/fancy/ed250977-2ed4-4ac8-935d-6940272fe12a.jpg",
+            "width": 375,
+            "height": 375
+          },
+          "goods_id": 601099598649135,
+          "title": "4 件装 - 320 LED 烟花太阳能灯 户外 4 件装 240 LED 路径灯 太阳能供电 星爆仙女灯 IP65 防水 8 种照明模式 适用于庭院 圣诞节 庭院 装饰，1 件装 - 60 LED（彩色，暖白）",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1297152290",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8sJMaUr6gX3lcFMWVsmsA7lzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X7ml9nRpK2ZF963KSmjNvOTfni8lXoNSIXAos1JW5UgwQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkNQ/k+xodybY1MTBUWmZp071qeiRcLrtB0mU8cP5Yt4ZIUP84so74o8QAsoano/vt2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1297152290",
+            "g": "601099598649135",
+            "scene_id": "1",
+            "show_price": "509",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "29",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "8161926849428342681",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099524534811&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2F2de87966bdc12dd04049ff24c370dbff.jpg&spec_id=16080&spec_gallery_id=772&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTQ5Nw&_oak_gallery_order=569619472%2C1041733895%2C1447553814&spec_ids=16080&_oak_mp_inf=EJvkiZ2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJfYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1497,
+            "currency": "USD",
+            "price_str": "$14.97",
+            "market_price": 3413,
+            "market_price_str": "$34.13",
+            "price_text": [
+              "$",
+              "14.97",
+              ""
+            ],
+            "reduction_text": [
+              "-56",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "34.13",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "14",
+              ".97",
+              ""
+            ],
+            "reduction": 560,
+            "price_schema": "14.97"
+          },
+          "image": {
+            "id": 772,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/2de87966bdc12dd04049ff24c370dbff.jpg",
+            "width": 1500,
+            "height": 2000
+          },
+          "goods_id": 601099524534811,
+          "title": "Cat & Slogan 印花泰迪连帽衫，休闲长袖纽扣装饰连帽衫卫衣，女装",
+          "p_rec": {
+            "skc_id": "17592201425374",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "569619472",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8EnZuYIQ0uYfUEL7OPnxh91zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XAA0ROSiU1lS4AS4R8DD/Mf/l2YRBQkvSmwb/lEFm1G+LAxBYBB7RofAIvBGZ308AEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkf2J+q54SDFAiQttzwVj2WlryGUcw/M2+4Fdg18F6B9wu6DbonYd35pbBwLA1BQ5N2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "569619472",
+            "g": "601099524534811",
+            "scene_id": "1",
+            "show_price": "1497",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "30",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2913459750602309247",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099644435010&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F7cb43e8b-e5de-4984-b0e0-470e120df97b.jpg&spec_id=3002&spec_gallery_id=6383&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTc5Nw&_oak_gallery_order=1354039473%2C1361256525%2C224626677%2C1505424101%2C1827279694&spec_ids=3002,16110,2001,16080&_oak_mp_inf=EML0n9am1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1797,
+            "currency": "USD",
+            "price_str": "$17.97",
+            "market_price": 3066,
+            "market_price_str": "$30.66",
+            "price_text": [
+              "$",
+              "17.97",
+              ""
+            ],
+            "reduction_text": [
+              "-41",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "30.66",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "17",
+              ".97",
+              ""
+            ],
+            "reduction": 410,
+            "price_schema": "17.97"
+          },
+          "image": {
+            "id": 6383,
+            "url": "https://img.kwcdn.com/product/fancy/7cb43e8b-e5de-4984-b0e0-470e120df97b.jpg",
+            "width": 1340,
+            "height": 1785
+          },
+          "goods_id": 601099644435010,
+          "title": "舒适加绒条纹宽腿裤 - 高弹力，女士弹性腰带 | 秋冬休闲装完美选择",
+          "p_rec": {
+            "skc_id": "17592337256855",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1354039473",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8b5UxPXpQucB/EItr4r9vY1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XOCT7LnUrQ9QfkiEE6rfNmLXmZ4WcYHVsil05ueD2XX6vBlc2eQXUl+LQMKIg1XZnEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkQE18RT0TaSUA/+1ofANpaR/vieF9/e18wMdlJiBfvfY2CNmxAHEYvNu23+JDgr1x2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1354039473",
+            "g": "601099644435010",
+            "scene_id": "1",
+            "show_price": "1797",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "31",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6505063881106213760",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099615055893&_oak_mp_inf=EJXgnsim1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F649c9c99-8e03-4b42-aa5e-77ce21ccdb4d.jpg&spec_gallery_id=2253543022&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NTI5OA&_oak_gallery_order=1077508252%2C1436918394%2C85181364%2C1683665331%2C1483648884",
+          "price_info": {
+            "price": 5298,
+            "currency": "USD",
+            "price_str": "$52.98",
+            "market_price": 11999,
+            "market_price_str": "$119.99",
+            "price_text": [
+              "$",
+              "52.98",
+              ""
+            ],
+            "reduction_text": [
+              "-55",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "119.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "52",
+              ".98",
+              ""
+            ],
+            "reduction": 550,
+            "price_schema": "52.98"
+          },
+          "image": {
+            "id": 2253543022,
+            "url": "https://img.kwcdn.com/product/fancy/649c9c99-8e03-4b42-aa5e-77ce21ccdb4d.jpg",
+            "width": 2000,
+            "height": 2000
+          },
+          "goods_id": 601099615055893,
+          "title": "2000磅车库置物架 72英寸高 储物架 重型置物架 5层金属架 用于车库架 35.5英寸宽 X 72英寸高 X 15.8英寸深，可调节置物架 用于地下室食品储藏室 实用架 架子",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1077508252",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8uQTZIZ5pMqRoyxXW7kowZ1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XVMkzY9E7U6FyClxputLW9pDm/OMAf4GFPibPjeY8N1oQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkk3KGKpeZ5C24ejMsYeIvRcZ6Z2IkwqG+ZkbZ2cbc/JdTQsQIb4auzqFBaRmLeqjC22NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1077508252",
+            "g": "601099615055893",
+            "scene_id": "1",
+            "show_price": "5298",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "32",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "5570849804719830194",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099525133886&_oak_mp_inf=EL6srp2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2Fbf11cbe209c9a648122fb8966dc279c6.jpg&spec_gallery_id=2035210911&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NTc3Nw&_oak_gallery_order=1360550900%2C1422577511%2C999438524%2C1397026880%2C1293696049",
+          "price_info": {
+            "price": 5777,
+            "currency": "USD",
+            "price_str": "$57.77",
+            "market_price": 24999,
+            "market_price_str": "$249.99",
+            "price_text": [
+              "$",
+              "57.77",
+              ""
+            ],
+            "reduction_text": [
+              "-76",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "249.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "57",
+              ".77",
+              ""
+            ],
+            "reduction": 760,
+            "price_schema": "57.77"
+          },
+          "image": {
+            "id": 2035210911,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/bf11cbe209c9a648122fb8966dc279c6.jpg",
+            "width": 1000,
+            "height": 1000
+          },
+          "goods_id": 601099525133886,
+          "title": "HY300迷你投影仪4K Android 11.01080P 720 P 200ANSI便携式无线家庭户外影院180°投影角度可调",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1360550900",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8rVwKD3697In1CE42ovkF01zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8Xf6v23lRvY0SR69aboZGHlBp+Nfvr1uGoyIh5EM1FstsQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkFcp3FtKrqNaFGlIo+LcLpUmM7Vy2v3C2dN6UJpPTsZL7A0RU/S35eo+eVvniTF1n2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1360550900",
+            "g": "601099525133886",
+            "scene_id": "1",
+            "show_price": "5777",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "33",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4157125664757323207",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099654035036&_oak_mp_inf=ENzs6dqm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F17314a64-7a4a-4c63-8b3a-6d608836fe55.jpg&spec_gallery_id=601099654035036&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MzY5Nw&_oak_gallery_order=226516458%2C1682057896%2C160920834%2C999921582%2C1953905182",
+          "price_info": {
+            "price": 3697,
+            "currency": "USD",
+            "price_str": "$36.97",
+            "market_price": 18249,
+            "market_price_str": "$182.49",
+            "price_text": [
+              "$",
+              "36.97",
+              ""
+            ],
+            "reduction_text": [
+              "-79",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "182.49",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "36",
+              ".97",
+              ""
+            ],
+            "reduction": 790,
+            "price_schema": "36.97"
+          },
+          "image": {
+            "id": 601099654035036,
+            "url": "https://img.kwcdn.com/product/fancy/17314a64-7a4a-4c63-8b3a-6d608836fe55.jpg",
+            "width": 375,
+            "height": 375
+          },
+          "goods_id": 601099654035036,
+          "title": "高品质柔软格纹涤纶床垫 - 透气蓬松填充，四季舒适，卧室和宿舍必备 - 温暖秋冬床品，可机洗床单，适用于户外活动，露营和徒步旅行",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "226516458",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8FCN/zPWE+gQbrdtHlhOC3Vzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X/4AsS7G2P3NS/lEbLSTFMPxIVNLNupljXCismxu4eXEQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAC72y+3sS09sq6N1W7+CqjsWdEyPGKqx/pxz6rwkftbc5ThpgzBqideVy4IxqtJ/y2oII5VKbbenvwCybd9Ho97zdxrsFlmEVXpPmdhdP0GHR5B+/Lb3QQSFR62kcp6MUQUhhUIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "226516458",
+            "g": "601099654035036",
+            "scene_id": "1",
+            "show_price": "3697",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "34",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2950251921072990817",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099531742261&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2F8fe71a795b78caca25b9661f636c7a30.jpg&spec_id=15084&spec_gallery_id=981&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=OTg5&_oak_gallery_order=519909290%2C651109058%2C372695817%2C890388136%2C1035460840&spec_ids=15084,16086,16100,2&_oak_mp_inf=ELXYwaCm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D",
+          "price_info": {
+            "price": 989,
+            "currency": "USD",
+            "price_str": "$9.89",
+            "market_price": 1099,
+            "market_price_str": "$10.99",
+            "price_text": [
+              "$",
+              "9.89",
+              ""
+            ],
+            "reduction_text": [
+              "-10",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "10.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "9",
+              ".89",
+              ""
+            ],
+            "reduction": 100,
+            "price_schema": "9.89"
+          },
+          "image": {
+            "id": 981,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/8fe71a795b78caca25b9661f636c7a30.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099531742261,
+          "title": "格子与雪人印花圆领长袖长款上衣，春秋季可爱女士服装",
+          "p_rec": {
+            "skc_id": "17592210315287",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "519909290",
+            "scene": "home",
+            "tsr": "CpABOiUaoHnuvL0OKj1LLT+x7hvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ88aPmtEiOeNpLZrT2rW223lzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X7cvQdhhI6a8wmT7V1Yma8MAbz4krLN6urBio4sGhfy6Ud+XRBH5CSqDjMz5TKaGPEH4YgAEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkklvqQ7gWNboFDokvpZNduTv1hPVWICsmDemth2L2YSQ8a0HL+xCYP8RUDQd2xjTC92NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "519909290",
+            "g": "601099531742261",
+            "scene_id": "1",
+            "show_price": "989",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "35",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4248508061604177720",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099625335731&_oak_mp_inf=ELOXks2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F20e4b278-5a8c-4fdc-9c68-fe5884d9ae45.jpg&spec_gallery_id=2283123594&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NTU0Mg&_oak_gallery_order=1145767299%2C2025741984%2C1458579430%2C1746939602%2C1165501944",
+          "price_info": {
+            "price": 5542,
+            "currency": "USD",
+            "price_str": "$55.42",
+            "price_text": [
+              "$",
+              "55.42",
+              ""
+            ],
+            "reduction_text": [],
+            "split_price_text": [
+              "$",
+              "55",
+              ".42",
+              ""
+            ],
+            "price_schema": "55.42"
+          },
+          "image": {
+            "id": 2283123594,
+            "url": "https://img.kwcdn.com/product/fancy/20e4b278-5a8c-4fdc-9c68-fe5884d9ae45.jpg",
+            "width": 1600,
+            "height": 1600
+          },
+          "goods_id": 601099625335731,
+          "title": "1 包 5000W 户外太阳能路灯，商用级户外日落到黎明太阳能路灯，带运动传感器和遥控器的户外太阳能灯，用于庭院、乡村的太阳能停车场灯",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1145767299",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8b4Ek2NccG6pRsppwnfPq21zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XY0FOT4AWTpPWwgdVVnv92dSsjTDIHGldwcBfzkt6I5EQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkDTNyHHpPRbJi0+ZHkwPnyTrYq4ywcXPKL5GqzB8KeViheI+lgy2Z5jzdZoJfvdb22NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1145767299",
+            "g": "601099625335731",
+            "scene_id": "1",
+            "show_price": "5542",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "36",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2933032293916636733",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099578396902&_oak_mp_inf=EOah4bam1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJjYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F8fd37e90-697e-4868-b90a-e88244a6bd5b.jpg&spec_gallery_id=2142983328&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTk5MQ&_oak_gallery_order=1991003328%2C2146303660%2C1436135676%2C107618593%2C927773085",
+          "price_info": {
+            "price": 1991,
+            "currency": "USD",
+            "price_str": "$19.91",
+            "market_price": 12500,
+            "market_price_str": "$125.00",
+            "price_text": [
+              "$",
+              "19.91",
+              ""
+            ],
+            "reduction_text": [
+              "-84",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "125.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "19",
+              ".91",
+              ""
+            ],
+            "reduction": 840,
+            "price_schema": "19.91"
+          },
+          "image": {
+            "id": 2142983328,
+            "url": "https://img.kwcdn.com/product/fancy/8fd37e90-697e-4868-b90a-e88244a6bd5b.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099578396902,
+          "title": "迷你洗衣机、折叠洗衣机，携带使用方便，内衣袜子分开洗更健康，家电好，出差不占用空间，两种颜色可选，8L洗衣机",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1991003328",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8M2TX1I4aSyc42XeHAXxnklzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XpaW9qRjYrvC5x3FeIcuXXVutdlYyC7N0il0mep8YsmcQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkktQxVWQcq7jtwkKwoLegt8LzG/LpFGohrNnm73nxshPZrlrpbkUAiyuo/2BnSSzeE2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1991003328",
+            "g": "601099578396902",
+            "scene_id": "1",
+            "show_price": "1991",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "37",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "726594799565872701",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099585857184&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fb6cb027a-62c4-4265-b3f7-5718d12a39f5.jpg&spec_id=16093&spec_gallery_id=5289&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjQyOQ&_oak_gallery_order=612435979%2C534585314%2C2071057733%2C1799592094%2C1572875352&spec_ids=16093&_oak_mp_inf=EKDNqLqm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D",
+          "price_info": {
+            "price": 2429,
+            "currency": "USD",
+            "price_str": "$24.29",
+            "market_price": 2699,
+            "market_price_str": "$26.99",
+            "price_text": [
+              "$",
+              "24.29",
+              ""
+            ],
+            "reduction_text": [
+              "-10",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "26.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "24",
+              ".29",
+              ""
+            ],
+            "reduction": 100,
+            "price_schema": "24.29"
+          },
+          "image": {
+            "id": 5289,
+            "url": "https://img.kwcdn.com/product/fancy/b6cb027a-62c4-4265-b3f7-5718d12a39f5.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099585857184,
+          "title": "加大码休闲三件套，扎染开襟上衣+纯色吊带背心+松紧腰裤套装，女士加大码服装",
+          "p_rec": {
+            "skc_id": "17592270717790",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "612435979",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8OO1kITtu8LXif016z6yLklzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XYrORO7B4mkr5Kpip684iFD1UVCdoIr50iqVejRCRQFyLAxBYBB7RofAIvBGZ308AEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkk9HTIo+U7aABYEGvqGoj4/m8b+j+mBEWaNhVzUoi5ozMskjfJwPnoZOMA/Ht8DVAZ2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "612435979",
+            "g": "601099585857184",
+            "scene_id": "1",
+            "show_price": "2429",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "38",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "3619446998494705812",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099621872116&_oak_mp_inf=EPTjvsum1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F9567ce3b-889c-4555-a94b-0e011de5d5c8.jpg&spec_gallery_id=2278667479&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MzU3MQ&_oak_gallery_order=944905521%2C1450460189%2C1493210274%2C1993826729%2C1433609109",
+          "price_info": {
+            "price": 3571,
+            "currency": "USD",
+            "price_str": "$35.71",
+            "price_text": [
+              "$",
+              "35.71",
+              ""
+            ],
+            "reduction_text": [],
+            "split_price_text": [
+              "$",
+              "35",
+              ".71",
+              ""
+            ],
+            "price_schema": "35.71"
+          },
+          "image": {
+            "id": 2278667479,
+            "url": "https://img.kwcdn.com/product/fancy/9567ce3b-889c-4555-a94b-0e011de5d5c8.jpg",
+            "width": 1200,
+            "height": 1200
+          },
+          "goods_id": 601099621872116,
+          "title": "不锈钢高压清洗枪，最大压力 3000 PSI，带快速连接喷嘴软管接头",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "944905521",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8rmXpd/qaksuAkn5zl1D7LVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XyEiy1SL9NQiblcpS228gp68rHZW8KFpwiWwBoqKeYJkQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkk1weBVxk0rPq/uH38QxUVIMdmeXjrI5nkAEJnWzdIuZn+kNs52uhnHmsDf8ab0e1D2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "944905521",
+            "g": "601099621872116",
+            "scene_id": "1",
+            "show_price": "3571",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "39",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "6888001393527062585",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099546539479&_oak_mp_inf=ENfryKem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fd661db17-663f-444e-ac44-cdc8284ae8b8.jpg&spec_gallery_id=2148895647&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTUyNw&_oak_gallery_order=184670736%2C617050362%2C1975454762%2C1077015412%2C644028149",
+          "price_info": {
+            "price": 1527,
+            "currency": "USD",
+            "price_str": "$15.27",
+            "market_price": 6600,
+            "market_price_str": "$66.00",
+            "price_text": [
+              "$",
+              "15.27",
+              ""
+            ],
+            "reduction_text": [
+              "-76",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "66.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "15",
+              ".27",
+              ""
+            ],
+            "reduction": 760,
+            "price_schema": "15.27"
+          },
+          "image": {
+            "id": 2148895647,
+            "url": "https://img.kwcdn.com/product/fancy/d661db17-663f-444e-ac44-cdc8284ae8b8.jpg",
+            "width": 3024,
+            "height": 3024
+          },
+          "goods_id": 601099546539479,
+          "title": "1pc分层防水床垫保护套（不含枕套和枕垫）柔软舒适的纯色床上用品床垫套卧室客房防水床单",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "184670736",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8u7nck6R5yuXwDac9LJDgoFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XNLc8N86QOdCZDvw97E70EpYrjxsuy/eBqj0vdcyC3XcQdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAC72y+3sS09sq6N1W7+CqjMjVQkrJFsD892iTyGz4tUMCWc8z4KrdRAfUDph11cNwLM2BaGqQRPQtPNbQfqcn17zdxrsFlmEVXpPmdhdP0GHR5B+/Lb3QQSFR62kcp6MUQUhhUIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "184670736",
+            "g": "601099546539479",
+            "scene_id": "1",
+            "show_price": "1527",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "40",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "3875113847067924720",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099545618028&_oak_mp_inf=EOzMkKem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Fopen%2F2024-02-02%2F1706852551653-110ef2ef50a2484789a096ae7298971e-goods.jpeg&spec_gallery_id=2088238924&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NzQ4&_oak_gallery_order=856329548%2C1979805271%2C648216110%2C1958600280%2C2073358999",
+          "price_info": {
+            "price": 748,
+            "currency": "USD",
+            "price_str": "$7.48",
+            "market_price": 4492,
+            "market_price_str": "$44.92",
+            "price_text": [
+              "$",
+              "7.48",
+              ""
+            ],
+            "reduction_text": [
+              "-83",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "44.92",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "7",
+              ".48",
+              ""
+            ],
+            "reduction": 830,
+            "price_schema": "7.48"
+          },
+          "image": {
+            "id": 2088238924,
+            "url": "https://img.kwcdn.com/product/open/2024-02-02/1706852551653-110ef2ef50a2484789a096ae7298971e-goods.jpeg",
+            "width": 1200,
+            "height": 1200
+          },
+          "goods_id": 601099545618028,
+          "title": "10色发粉笔梳，Y2K发粉笔梳，生日万圣节圣诞节临时可洗染发剂",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "856329548",
+            "scene": "home",
+            "tsr": "CoAB3ZSPcSXYqfM2vhZgS3hu4RvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8Q+ZBG4vxtvsrGlwUT8IoDlzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XGfnSnab7BqRXuVCrxc1JEbqjFHIHGUZfkiDkbYhY718Qdhh4IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkXXJ/wLreDqUzy9Tx+tXKEhjSFmMwdRokJHXD/SlRc59obsLUdCynYCDt3nDT/DPE2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "856329548",
+            "g": "601099545618028",
+            "scene_id": "1",
+            "show_price": "748",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "41",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2650078394387377128",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099579054467&_oak_mp_inf=EIOzibem1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F056241f4-8295-4b32-9d2e-c9aa556be3fc.jpg&spec_gallery_id=2145596645&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=NjI4OA&_oak_gallery_order=948919719%2C2072212778%2C587452557%2C1071113225%2C2055345996",
+          "price_info": {
+            "price": 6288,
+            "currency": "USD",
+            "price_str": "$62.88",
+            "market_price": 34986,
+            "market_price_str": "$349.86",
+            "price_text": [
+              "$",
+              "62.88",
+              ""
+            ],
+            "reduction_text": [
+              "-82",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "349.86",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "62",
+              ".88",
+              ""
+            ],
+            "reduction": 820,
+            "price_schema": "62.88"
+          },
+          "image": {
+            "id": 2145596645,
+            "url": "https://img.kwcdn.com/product/fancy/056241f4-8295-4b32-9d2e-c9aa556be3fc.jpg",
+            "width": 1500,
+            "height": 1500
+          },
+          "goods_id": 601099579054467,
+          "title": "便携式折叠露营床，超大尺寸 28.7 英寸可调节 5 位成人躺椅带枕头，500 磅承重能力，耐用牛津布 1200D 带床垫，适用于旅行、房间、办公室、车库",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "948919719",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8zyqAyjFt99k4r8CuHI0CPlzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XjIemD6eUsTfJLCtCRslJFXl9753M9NPRTPa054WIw6wQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkk2MoUxXN+aps7zJujlhLZQauQPIZYTLISA0EJFSwyWro3WzDaUowujV7oqZzRkl8F2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "948919719",
+            "g": "601099579054467",
+            "scene_id": "1",
+            "show_price": "6288",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "42",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4779143854709298081",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099591810214&_oak_mp_inf=EKb5k72m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Ffbc776d9-520d-4824-8188-6ebd7f0fa7ef.jpg&spec_gallery_id=2229025368&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTMwMQ&_oak_gallery_order=2084680391%2C1973382769%2C473908363%2C1071979586%2C1999043816",
+          "price_info": {
+            "price": 1301,
+            "currency": "USD",
+            "price_str": "$13.01",
+            "market_price": 4900,
+            "market_price_str": "$49.00",
+            "price_text": [
+              "$",
+              "13.01",
+              ""
+            ],
+            "reduction_text": [
+              "-73",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "49.00",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "13",
+              ".01",
+              ""
+            ],
+            "reduction": 730,
+            "price_schema": "13.01"
+          },
+          "image": {
+            "id": 2229025368,
+            "url": "https://img.kwcdn.com/product/fancy/fbc776d9-520d-4824-8188-6ebd7f0fa7ef.jpg",
+            "width": 1200,
+            "height": 1200
+          },
+          "goods_id": 601099591810214,
+          "title": "TAIKON 手腕血压监测器 - LCD显示屏，可调节袖带，带不规则心跳检测，电池供电（不含电池）",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "2084680391",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8/HJZDSSMspJQ/6nQN3VacFzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XBorxA5GNlU47P932uL3hPuaWhwz1FICFiPcYI0Bb9YUQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkkpTpE3jX+qIAoErRETX+DOgJk3uUpVhPcTcfGMTxudOL2BrNd7QuTTdRBO1Wil3a2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "2084680391",
+            "g": "601099591810214",
+            "scene_id": "1",
+            "show_price": "1301",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "43",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "8272707292962169068",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099525345606&_oak_mp_inf=EMaiu52m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2F24ef2148b57e4f5e544391768e3d9d12.jpg&spec_gallery_id=2027520765&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTI5OQ&_oak_gallery_order=568413390%2C1321029471%2C1123091999%2C1030719051%2C160996214",
+          "price_info": {
+            "price": 1299,
+            "currency": "USD",
+            "price_str": "$12.99",
+            "market_price": 6494,
+            "market_price_str": "$64.94",
+            "price_text": [
+              "$",
+              "12.99",
+              ""
+            ],
+            "reduction_text": [
+              "-79",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "64.94",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "12",
+              ".99",
+              ""
+            ],
+            "price_schema": "12.99"
+          },
+          "image": {
+            "id": 2027520765,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/24ef2148b57e4f5e544391768e3d9d12.jpg",
+            "width": 1600,
+            "height": 1600
+          },
+          "goods_id": 601099525345606,
+          "title": "带无线快速充电功能的无线蓝牙扬声器、节奏 RGB 灯、条形智能灯、日出闹钟、卧室唤醒灯、可调光台灯",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "568413390",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8hBtS2O2l6XWE6WL5LkLRx1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8X9umynBIsNAd2Q5iNva5++HLLNo37BbAldoEjcB007lMQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkk+CDwrwQoX3znsHAFYlT3dNgxrNenAWdmtgtdpz3nqjRAEHDiC1J6maaZzgQpV/fR2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "568413390",
+            "g": "601099525345606",
+            "scene_id": "1",
+            "show_price": "1299",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "44",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2088722207870741265",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099540168550&_oak_mp_inf=EOb%2Bw6Sm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJnYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2FFancyalgo%2FVirtualModelMatting%2F63cb95eb4c904dd3872df5c09f504e73.jpg&spec_gallery_id=2072386872&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjI5Mw&_oak_gallery_order=288878578%2C636910307%2C1190922885%2C1336334985%2C694589830",
+          "price_info": {
+            "price": 2293,
+            "currency": "USD",
+            "price_str": "$22.93",
+            "market_price": 2499,
+            "market_price_str": "$24.99",
+            "price_text": [
+              "$",
+              "22.93",
+              ""
+            ],
+            "reduction_text": [
+              "-8",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "24.99",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "22",
+              ".93",
+              ""
+            ],
+            "reduction": 80,
+            "price_schema": "22.93"
+          },
+          "image": {
+            "id": 2072386872,
+            "url": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/63cb95eb4c904dd3872df5c09f504e73.jpg",
+            "width": 800,
+            "height": 800
+          },
+          "goods_id": 601099540168550,
+          "title": "磁力玩具，儿童大型尺子磁力积木，儿童设计建筑玩具，积木，STEM玩具，学习教育玩具，返校季，万圣节，圣诞节礼物",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "288878578",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8NNBOEtHDz1ymXLlLmx55Klzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XgFSlYE0XX28a0gSjRcQEPkwPWjLBy5LfNo2thi2ZANkQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkaRqf8t44qNnF8VflsHik67xYuBBPr64FP4dy5ENBJBssy48hICyT92frKU1H21ZB2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "288878578",
+            "g": "601099540168550",
+            "scene_id": "1",
+            "show_price": "2293",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "45",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "5836945186860590582",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099649051396&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F12615408-d6da-4a52-aa98-dcd05d5bf49a.jpg&spec_id=16068&spec_gallery_id=7984&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=OTE5&_oak_gallery_order=1767280743%2C1205464713%2C1077390833%2C806577524%2C162567675&spec_ids=16068,3002&_oak_mp_inf=EITWudim1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJrYrbalMg%3D%3D",
+          "price_info": {
+            "price": 919,
+            "currency": "USD",
+            "price_str": "$9.19",
+            "market_price": 3620,
+            "market_price_str": "$36.20",
+            "price_text": [
+              "$",
+              "9.19",
+              ""
+            ],
+            "reduction_text": [
+              "-74",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "36.20",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "9",
+              ".19",
+              ""
+            ],
+            "reduction": 740,
+            "price_schema": "9.19"
+          },
+          "image": {
+            "id": 7984,
+            "url": "https://img.kwcdn.com/product/fancy/12615408-d6da-4a52-aa98-dcd05d5bf49a.jpg",
+            "width": 1350,
+            "height": 1800
+          },
+          "goods_id": 601099649051396,
+          "title": "这款女士优雅长袖条纹针织上衣，V领T恤，聚酯材质，合身款式，春秋系列",
+          "p_rec": {
+            "skc_id": "17592342675045",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1767280743",
+            "scene": "home",
+            "tsr": "CpABOiUaoHnuvL0OKj1LLT+x7hvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8JqGxixnFetG7ddn9Kvc+N1zb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XmkwbHEv8++2lW7TAVxFYY2ibGIKU3Kw44aHIfYcqA66Ud+XRBH5CSqDjMz5TKaGPEH4YgAEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmAG4yQsKVaaKmuIusTfXNkkkjQx3usw1bZD+iaBIMbICpOsOMZHmVVX3Uwm6Q/Yiy8KyIc/QU3B+eQLFCd9hqG32NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1767280743",
+            "g": "601099649051396",
+            "scene_id": "1",
+            "show_price": "919",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "46",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "2989208712423360967",
+            "ts": "1728033025072"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099525513548&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F0968e763-8324-4dd8-9199-90ac052289e5.jpg&spec_id=16090&spec_gallery_id=885&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTQzNQ&_oak_gallery_order=1761696257%2C1259136850%2C257182320%2C781215495%2C455272128&spec_ids=16090,3002,2,15081,16082,16083,16078&_oak_mp_inf=EMzCxZ2m1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJrYrbalMg%3D%3D",
+          "price_info": {
+            "price": 1435,
+            "currency": "USD",
+            "price_str": "$14.35",
+            "market_price": 10047,
+            "market_price_str": "$100.47",
+            "price_text": [
+              "$",
+              "14.35",
+              ""
+            ],
+            "reduction_text": [
+              "-85",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "100.47",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "14",
+              ".35",
+              ""
+            ],
+            "reduction": 850,
+            "price_schema": "14.35"
+          },
+          "image": {
+            "id": 885,
+            "url": "https://img.kwcdn.com/product/fancy/0968e763-8324-4dd8-9199-90ac052289e5.jpg",
+            "width": 1500,
+            "height": 2000
+          },
+          "goods_id": 601099525513548,
+          "title": "男士保暖抓绒连帽夹克，秋冬休闲拼色夹克外套",
+          "p_rec": {
+            "skc_id": "17592202640318",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1761696257",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8KCwJJcR3UXa8CElO504QcVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XDy7PeMeE2PSKXpY0bxiNcCZ6eVXj1HRtUUV/JOJa96wVlLLmyLLmY5azGZos2PA3EH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCKvOQYtAB6UN+fQD9LnJ8d6khQeTbLeO5PUO50TX118Wz2d1O5tLrra3brp95lwwD+0L0aCFNcVEprCIVNOL0r2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1761696257",
+            "g": "601099525513548",
+            "scene_id": "1",
+            "show_price": "1435",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "47",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4509664905478022417",
+            "ts": "1728033025073"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099642508903&_oak_mp_inf=EOesqtWm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJrYrbalMg%3D%3D&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fa254250c-3f69-443a-89c1-f05e3ffac304.jpg&spec_gallery_id=2361585970&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MTU5OA&_oak_gallery_order=1829378359%2C471172898%2C1637850325%2C711216103%2C1020673884",
+          "price_info": {
+            "price": 1598,
+            "currency": "USD",
+            "price_str": "$15.98",
+            "market_price": 8025,
+            "market_price_str": "$80.25",
+            "price_text": [
+              "$",
+              "15.98",
+              ""
+            ],
+            "reduction_text": [
+              "-80",
+              "%"
+            ],
+            "market_price_text": [
+              "$",
+              "80.25",
+              ""
+            ],
+            "split_price_text": [
+              "$",
+              "15",
+              ".98",
+              ""
+            ],
+            "reduction": 800,
+            "price_schema": "15.98"
+          },
+          "image": {
+            "id": 2361585970,
+            "url": "https://img.kwcdn.com/product/fancy/a254250c-3f69-443a-89c1-f05e3ffac304.jpg",
+            "width": 4320,
+            "height": 4320
+          },
+          "goods_id": 601099642508903,
+          "title": "一套46件/150件手工具套装，高级棘轮扭力扳手，多功能，超便携，适用于汽车、自行车、摩托车维护和修理，以及家庭使用 - 材质：不锈钢",
+          "p_rec": {
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "1829378359",
+            "scene": "home",
+            "tsr": "CoABQy/bRvysqwEvPE5Fl3bVthvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8fKqQziPqajkvZWJW8fTdqVzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XynQyHeB4cNnIMwfD5N16pJJ6mWCiVcF4QpAbFJSMq3wQdxh5IiQ2NTgxYzNmYi03ZjQ3LTRkMTAtYjgyMy1kNTM5MjExMGRhOTM=",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCKvOQYtAB6UN+fQD9LnJ8dXX7om+SsbubUngvBZY5/CWix9LDtyrlhyUnqbfsh+s5f98FLTkGUCGsCXxSdY3Gv2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "1829378359",
+            "g": "601099642508903",
+            "scene_id": "1",
+            "show_price": "1598",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "48",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4119187031435674337",
+            "ts": "1728033025073"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "data": {
+          "link_url": "goods.html?_bg_fs=1&goods_id=601099643195679&top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fece12561-2d25-452c-bc19-07bf26e98076.jpg&spec_id=21263&spec_gallery_id=6072&refer_page_sn=0&refer_source=0&freesia_scene=1&_oak_freesia_scene=1&_oak_rec_ext_1=MjI0OQ&_oak_gallery_order=975933004%2C1362009391%2C416251030%2C1632857689%2C216063455&spec_ids=21263&_oak_mp_inf=EJ%2Bi1NWm1ogBGitiYWNrdXBfOGJmZGUxZjYtYTBhOC00OTBiLTk0MmEtNzE5ZTBhNDNmZDFlIJrYrbalMg%3D%3D",
+          "price_info": {
+            "price": 2249,
+            "currency": "USD",
+            "price_str": "$22.49",
+            "price_text": [
+              "$",
+              "22.49",
+              ""
+            ],
+            "reduction_text": [],
+            "split_price_text": [
+              "$",
+              "22",
+              ".49",
+              ""
+            ],
+            "price_schema": "22.49"
+          },
+          "image": {
+            "id": 6072,
+            "url": "https://img.kwcdn.com/product/fancy/ece12561-2d25-452c-bc19-07bf26e98076.jpg",
+            "width": 1340,
+            "height": 1785
+          },
+          "goods_id": 601099643195679,
+          "title": "QUASTI 10 件装 女士 多巴胺 色彩 条纹 透气 舒适 贴身 女士 高腰 内裤 弹性柔软 包臀 高腰 大腿 内裤 学生返校 运动 内裤 & 女士 高腰 时尚 内裤",
+          "p_rec": {
+            "skc_id": "17592335703100",
+            "list_id": "backup_8bfde1f6-a0a8-490b-942a-719e0a43fd1e",
+            "mid": "69999914",
+            "final_creative_id": "975933004",
+            "scene": "home",
+            "tsr": "CpAB+gnEGxw65EqnJImfEtyuCRvMxZaiBJOOQ5f6xUMLSOIhZDKxcOmHVc1iPEmL5DZ8kh/X2DCMkHiIJTpfYBDk4Vzb2I3sJTr5tFn0b6nHKo7lvz7pNeo+10sfbLstzx8XRs+3iMl7mQCQ5VtgMzmk6kpRK4vSKmPjWxbXSUi77bm9+MFvZET5kpq330DSRvDEEH8YgQEiJDY1ODFjM2ZiLTdmNDctNGQxMC1iODIzLWQ1MzkyMTEwZGE5Mw==",
+            "show_currency": "USD",
+            "no_result": "0",
+            "exp": "CgEAEAAYAQ==",
+            "sr": "CmCKvOQYtAB6UN+fQD9LnJ8dNV0J6Ay+z3XhWtdIgba5kOo+5mRz8+6yvxslDhszg/Kk5lF06++sYumFDTbGxfep2NtXbaO330FRFWOCfHpNHkRSDsNk5K6xtjqbnmZ8cQEQUxhVIiQwNWZjNmI1ZC1kYmNmLTQ3MDctODA5OS0wNWJjNjI0Mjg3MTc=",
+            "offset": "0",
+            "engine_creative_id": "975933004",
+            "g": "601099643195679",
+            "scene_id": "1",
+            "show_price": "2249",
+            "psid": "69999800",
+            "opt_id": "0",
+            "ts_req": "0",
+            "version": "5",
+            "search_id": "DKeZ4qHYADQ7TnKsJG4KG57F61QTHf_AzclWENXAkLg=",
+            "gin_fallback": "0",
+            "opt_type": "0",
+            "goods_source": "rec",
+            "idx": "49",
+            "region": "211",
+            "bid": "69999703",
+            "cloud_env": "usm1",
+            "creative_title_id": "4636957464616431295",
+            "ts": "1728033025073"
+          }
+        }
+      }
+    ],
+    "has_more": false
+  }
+}
