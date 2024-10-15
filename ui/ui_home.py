@@ -47,6 +47,8 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setMinimumSize(QSize(0, 50))
         self.pushButton.setMaximumSize(QSize(16777215, 50))
+        self.pushButton.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.pushButton.setFocusPolicy(Qt.FocusPolicy.TabFocus)
 
         self.horizontalLayout_3.addWidget(self.pushButton)
 
@@ -133,17 +135,30 @@ class Ui_MainWindow(object):
 
         self.formLayout_2.setWidget(4, QFormLayout.FieldRole, self.password_2)
 
-        self.pushButton_4 = QPushButton(self.tab_5)
-        self.pushButton_4.setObjectName(u"pushButton_4")
-        self.pushButton_4.setMinimumSize(QSize(0, 40))
-
-        self.formLayout_2.setWidget(5, QFormLayout.LabelRole, self.pushButton_4)
-
         self.pushButton_5 = QPushButton(self.tab_5)
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setMinimumSize(QSize(0, 40))
+        self.pushButton_5.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
-        self.formLayout_2.setWidget(5, QFormLayout.FieldRole, self.pushButton_5)
+        self.formLayout_2.setWidget(6, QFormLayout.FieldRole, self.pushButton_5)
+
+        self.pushButton_4 = QPushButton(self.tab_5)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setMinimumSize(QSize(0, 40))
+        self.pushButton_4.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+
+        self.formLayout_2.setWidget(6, QFormLayout.LabelRole, self.pushButton_4)
+
+        self.Label = QLabel(self.tab_5)
+        self.Label.setObjectName(u"Label")
+
+        self.formLayout_2.setWidget(5, QFormLayout.LabelRole, self.Label)
+
+        self.database = QLineEdit(self.tab_5)
+        self.database.setObjectName(u"database")
+        self.database.setMinimumSize(QSize(200, 0))
+
+        self.formLayout_2.setWidget(5, QFormLayout.FieldRole, self.database)
 
 
         self.gridLayout_4.addLayout(self.formLayout_2, 0, 0, 1, 1)
@@ -166,15 +181,16 @@ class Ui_MainWindow(object):
         self.tabWidget.currentChanged.connect(MainWindow.tab_changed)
         self.pushButton.clicked.connect(MainWindow.start_fetch_data)
         self.pushButton_4.clicked.connect(MainWindow.save_settings_info)
+        self.pushButton_5.clicked.connect(MainWindow.test_connection)
 
-        self.tabWidget.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Temu Spider", None))
 #if QT_CONFIG(whatsthis)
         self.tabWidget.setWhatsThis("")
 #endif // QT_CONFIG(whatsthis)
@@ -188,8 +204,9 @@ class Ui_MainWindow(object):
         self.Label_8.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7aef\u53e3:", None))
         self.Label_9.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7528\u6237:", None))
         self.Label_10.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u5bc6\u7801:", None))
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u6d4b\u8bd5", None))
         self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\u63d0\u4ea4", None))
-        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u91cd\u7f6e", None))
+        self.Label.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u540d", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_5), QCoreApplication.translate("MainWindow", u"\u7cfb\u7edf\u914d\u7f6e", None))
     # retranslateUi
 

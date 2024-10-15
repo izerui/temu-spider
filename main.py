@@ -2,7 +2,7 @@ import sys
 
 from PySide6 import QtWidgets
 
-from controller.home import MainWindow
+from controller.view import MainWindow
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])

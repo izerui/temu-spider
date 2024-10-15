@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Temu Spider</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -21,7 +21,7 @@
        <string/>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <property name="tabsClosable">
        <bool>false</bool>
@@ -54,6 +54,12 @@
                 <width>16777215</width>
                 <height>50</height>
                </size>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::FocusPolicy::TabFocus</enum>
               </property>
               <property name="text">
                <string>开始获取</string>
@@ -195,20 +201,7 @@
             </property>
            </widget>
           </item>
-          <item row="5" column="0">
-           <widget class="QPushButton" name="pushButton_4">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>40</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>提交</string>
-            </property>
-           </widget>
-          </item>
-          <item row="5" column="1">
+          <item row="6" column="1">
            <widget class="QPushButton" name="pushButton_5">
             <property name="minimumSize">
              <size>
@@ -216,8 +209,44 @@
               <height>40</height>
              </size>
             </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="text">
-             <string>重置</string>
+             <string>测试</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>提交</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="Label">
+            <property name="text">
+             <string>数据库名</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="database">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
             </property>
            </widget>
           </item>
@@ -295,10 +324,27 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>test_connection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>339</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>start_fetch_data()</slot>
   <slot>tab_changed()</slot>
   <slot>save_settings_info()</slot>
+  <slot>test_connection()</slot>
  </slots>
 </ui>

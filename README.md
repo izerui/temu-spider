@@ -6,10 +6,12 @@
    * `cd temu-spider && source ./venv/bin/activate`
 3. 安装依赖
    * `pip config set global.index-url https://mirrors.cloud.tencent.com/pypi/simple/`
-   * `pip install fastapi`
    * `pip install pytest-playwright`
    * `pip install pyinstaller`
    * `pip install PySide6`
+   * `pip install sqlalchemy`
+   * `pip install psycopg2-binary`
+   * `pip install pymysql`
 4. 启动应用: 
    * `uvicorn main:app --host 0.0.0.0 --timeout-keep-alive 60 --workers 1`
 
