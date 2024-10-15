@@ -1,0 +1,195 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'home.ui'
+##
+## Created by: Qt User Interface Compiler version 6.8.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QComboBox, QDoubleSpinBox,
+    QFormLayout, QGridLayout, QHBoxLayout, QLabel,
+    QLayout, QLineEdit, QMainWindow, QMenuBar,
+    QPushButton, QSizePolicy, QStatusBar, QTabWidget,
+    QTextBrowser, QVBoxLayout, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(640, 480)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.gridLayout = QGridLayout(self.centralwidget)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.tabWidget = QTabWidget(self.centralwidget)
+        self.tabWidget.setObjectName(u"tabWidget")
+        self.tabWidget.setTabsClosable(False)
+        self.tab_2 = QWidget()
+        self.tab_2.setObjectName(u"tab_2")
+        self.gridLayout_2 = QGridLayout(self.tab_2)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
+        self.verticalLayout = QVBoxLayout()
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setSizeConstraint(QLayout.SizeConstraint.SetMinAndMaxSize)
+        self.horizontalLayout_3 = QHBoxLayout()
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.horizontalLayout_3.setContentsMargins(0, -1, -1, -1)
+        self.pushButton = QPushButton(self.tab_2)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setMinimumSize(QSize(0, 50))
+        self.pushButton.setMaximumSize(QSize(16777215, 50))
+
+        self.horizontalLayout_3.addWidget(self.pushButton)
+
+
+        self.verticalLayout.addLayout(self.horizontalLayout_3)
+
+        self.textBrowser = QTextBrowser(self.tab_2)
+        self.textBrowser.setObjectName(u"textBrowser")
+
+        self.verticalLayout.addWidget(self.textBrowser)
+
+
+        self.gridLayout_2.addLayout(self.verticalLayout, 0, 0, 1, 1)
+
+        self.tabWidget.addTab(self.tab_2, "")
+        self.tab_5 = QWidget()
+        self.tab_5.setObjectName(u"tab_5")
+        self.gridLayout_4 = QGridLayout(self.tab_5)
+        self.gridLayout_4.setObjectName(u"gridLayout_4")
+        self.formLayout_2 = QFormLayout()
+        self.formLayout_2.setObjectName(u"formLayout_2")
+        self.formLayout_2.setFieldGrowthPolicy(QFormLayout.FieldGrowthPolicy.FieldsStayAtSizeHint)
+        self.formLayout_2.setRowWrapPolicy(QFormLayout.RowWrapPolicy.DontWrapRows)
+        self.formLayout_2.setLabelAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignVCenter)
+        self.formLayout_2.setFormAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.Label_6 = QLabel(self.tab_5)
+        self.Label_6.setObjectName(u"Label_6")
+
+        self.formLayout_2.setWidget(0, QFormLayout.LabelRole, self.Label_6)
+
+        self.db_type_2 = QComboBox(self.tab_5)
+        self.db_type_2.addItem("")
+        self.db_type_2.addItem("")
+        self.db_type_2.setObjectName(u"db_type_2")
+        self.db_type_2.setMinimumSize(QSize(200, 0))
+
+        self.formLayout_2.setWidget(0, QFormLayout.FieldRole, self.db_type_2)
+
+        self.Label_7 = QLabel(self.tab_5)
+        self.Label_7.setObjectName(u"Label_7")
+
+        self.formLayout_2.setWidget(1, QFormLayout.LabelRole, self.Label_7)
+
+        self.host_2 = QLineEdit(self.tab_5)
+        self.host_2.setObjectName(u"host_2")
+        self.host_2.setMinimumSize(QSize(200, 0))
+
+        self.formLayout_2.setWidget(1, QFormLayout.FieldRole, self.host_2)
+
+        self.Label_8 = QLabel(self.tab_5)
+        self.Label_8.setObjectName(u"Label_8")
+
+        self.formLayout_2.setWidget(2, QFormLayout.LabelRole, self.Label_8)
+
+        self.port_2 = QDoubleSpinBox(self.tab_5)
+        self.port_2.setObjectName(u"port_2")
+        self.port_2.setMinimumSize(QSize(200, 0))
+        self.port_2.setDecimals(0)
+        self.port_2.setMaximum(65535.000000000000000)
+        self.port_2.setStepType(QAbstractSpinBox.StepType.DefaultStepType)
+        self.port_2.setValue(5432.000000000000000)
+
+        self.formLayout_2.setWidget(2, QFormLayout.FieldRole, self.port_2)
+
+        self.Label_9 = QLabel(self.tab_5)
+        self.Label_9.setObjectName(u"Label_9")
+
+        self.formLayout_2.setWidget(3, QFormLayout.LabelRole, self.Label_9)
+
+        self.user_2 = QLineEdit(self.tab_5)
+        self.user_2.setObjectName(u"user_2")
+        self.user_2.setMinimumSize(QSize(200, 0))
+
+        self.formLayout_2.setWidget(3, QFormLayout.FieldRole, self.user_2)
+
+        self.Label_10 = QLabel(self.tab_5)
+        self.Label_10.setObjectName(u"Label_10")
+
+        self.formLayout_2.setWidget(4, QFormLayout.LabelRole, self.Label_10)
+
+        self.password_2 = QLineEdit(self.tab_5)
+        self.password_2.setObjectName(u"password_2")
+        self.password_2.setMinimumSize(QSize(200, 0))
+
+        self.formLayout_2.setWidget(4, QFormLayout.FieldRole, self.password_2)
+
+        self.pushButton_4 = QPushButton(self.tab_5)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setMinimumSize(QSize(0, 40))
+
+        self.formLayout_2.setWidget(5, QFormLayout.LabelRole, self.pushButton_4)
+
+        self.pushButton_5 = QPushButton(self.tab_5)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setMinimumSize(QSize(0, 40))
+
+        self.formLayout_2.setWidget(5, QFormLayout.FieldRole, self.pushButton_5)
+
+
+        self.gridLayout_4.addLayout(self.formLayout_2, 0, 0, 1, 1)
+
+        self.tabWidget.addTab(self.tab_5, "")
+
+        self.gridLayout.addWidget(self.tabWidget, 0, 0, 1, 1)
+
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 640, 37))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+        QWidget.setTabOrder(self.pushButton, self.textBrowser)
+
+        self.retranslateUi(MainWindow)
+        self.tabWidget.currentChanged.connect(MainWindow.tab_changed)
+        self.pushButton.clicked.connect(MainWindow.start_fetch_data)
+        self.pushButton_4.clicked.connect(MainWindow.save_settings_info)
+
+        self.tabWidget.setCurrentIndex(0)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+#if QT_CONFIG(whatsthis)
+        self.tabWidget.setWhatsThis("")
+#endif // QT_CONFIG(whatsthis)
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
+        self.Label_6.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7c7b\u578b", None))
+        self.db_type_2.setItemText(0, QCoreApplication.translate("MainWindow", u"PostgreSQL", None))
+        self.db_type_2.setItemText(1, QCoreApplication.translate("MainWindow", u"MySQL", None))
+
+        self.Label_7.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u4e3b\u673a:", None))
+        self.Label_8.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7aef\u53e3:", None))
+        self.Label_9.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7528\u6237:", None))
+        self.Label_10.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u5bc6\u7801:", None))
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\u63d0\u4ea4", None))
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u91cd\u7f6e", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_5), QCoreApplication.translate("MainWindow", u"\u7cfb\u7edf\u914d\u7f6e", None))
+    # retranslateUi
+

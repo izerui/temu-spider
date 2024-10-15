@@ -163,3 +163,4 @@ cython_debug/
 tmp/
 .qiniu_pythonsdk_hostscache.json
 x.pdf
+settings.ini
