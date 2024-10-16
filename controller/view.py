@@ -5,6 +5,7 @@ from PySide6.QtCore import Slot
 from PySide6.QtWidgets import QMessageBox
 
 from controller.support import Context
+from controller.worker import ConnectTestWorkThread
 from ui.ui_home import Ui_MainWindow
 
 
@@ -62,20 +63,24 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     @Slot()
     def test_connection(self, *args, **kwargs):
-        try:
-            settings = {
-                'db_type': self.db_type_2.currentText(),
-                'db_host': self.host_2.text(),
-                'db_port': int(self.port_2.value()),
-                'db_user': self.user_2.text(),
-                'db_password': self.password_2.text(),
-                'db_database': self.database.text(),
-            }
-            success, error = Context.test_connection(settings)
+
+        @Slot(tuple)
+        def result_handler(result):
+            success, error = result
             if success:
                 Context.show_message('连接成功')
             else:
                 Context.show_message(error, True)
-        except BaseException as e:
-            logging.exception(e)
-            Context.show_message(str(e), True)
+
+        settings = {
+            'db_type': self.db_type_2.currentText(),
+            'db_host': self.host_2.text(),
+            'db_port': int(self.port_2.value()),
+            'db_user': self.user_2.text(),
+            'db_password': self.password_2.text(),
+            'db_database': self.database.text(),
+        }
+
+        thread = ConnectTestWorkThread(settings)
+        thread.result.connect(result_handler)
+        thread.start()
