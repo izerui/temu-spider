@@ -21,7 +21,7 @@
        <string/>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <property name="tabsClosable">
        <bool>false</bool>
@@ -42,7 +42,7 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="btn1">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -63,6 +63,22 @@
               </property>
               <property name="text">
                <string>开始获取</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn2">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>停止</string>
               </property>
              </widget>
             </item>
@@ -264,14 +280,13 @@
      <x>0</x>
      <y>0</y>
      <width>640</width>
-     <height>37</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
-  <tabstop>pushButton</tabstop>
   <tabstop>textBrowser</tabstop>
  </tabstops>
  <resources/>
@@ -289,22 +304,6 @@
     <hint type="destinationlabel">
      <x>486</x>
      <y>-31</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>start_fetch_data()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>252</x>
-     <y>92</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>208</x>
-     <y>-45</y>
     </hint>
    </hints>
   </connection>
@@ -340,11 +339,44 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>btn1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>fetch_recommended()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>175</x>
+     <y>-67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>stop_fetch_recommended()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>556</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>-27</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
-  <slot>start_fetch_data()</slot>
+  <slot>fetch_recommended()</slot>
   <slot>tab_changed()</slot>
   <slot>save_settings_info()</slot>
   <slot>test_connection()</slot>
+  <slot>stop_fetch_recommended()</slot>
  </slots>
 </ui>

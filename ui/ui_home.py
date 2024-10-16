@@ -43,14 +43,21 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3 = QHBoxLayout()
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setContentsMargins(0, -1, -1, -1)
-        self.pushButton = QPushButton(self.tab_2)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setMinimumSize(QSize(0, 50))
-        self.pushButton.setMaximumSize(QSize(16777215, 50))
-        self.pushButton.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-        self.pushButton.setFocusPolicy(Qt.FocusPolicy.TabFocus)
+        self.btn1 = QPushButton(self.tab_2)
+        self.btn1.setObjectName(u"btn1")
+        self.btn1.setMinimumSize(QSize(0, 50))
+        self.btn1.setMaximumSize(QSize(16777215, 50))
+        self.btn1.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.btn1.setFocusPolicy(Qt.FocusPolicy.TabFocus)
 
-        self.horizontalLayout_3.addWidget(self.pushButton)
+        self.horizontalLayout_3.addWidget(self.btn1)
+
+        self.btn2 = QPushButton(self.tab_2)
+        self.btn2.setObjectName(u"btn2")
+        self.btn2.setEnabled(False)
+        self.btn2.setMinimumSize(QSize(0, 50))
+
+        self.horizontalLayout_3.addWidget(self.btn2)
 
 
         self.verticalLayout.addLayout(self.horizontalLayout_3)
@@ -170,20 +177,20 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 640, 37))
+        self.menubar.setGeometry(QRect(0, 0, 640, 24))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        QWidget.setTabOrder(self.pushButton, self.textBrowser)
 
         self.retranslateUi(MainWindow)
         self.tabWidget.currentChanged.connect(MainWindow.tab_changed)
-        self.pushButton.clicked.connect(MainWindow.start_fetch_data)
         self.pushButton_4.clicked.connect(MainWindow.save_settings_info)
         self.pushButton_5.clicked.connect(MainWindow.test_connection)
+        self.btn1.clicked.connect(MainWindow.fetch_recommended)
+        self.btn2.clicked.connect(MainWindow.stop_fetch_recommended)
 
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -194,7 +201,8 @@ class Ui_MainWindow(object):
 #if QT_CONFIG(whatsthis)
         self.tabWidget.setWhatsThis("")
 #endif // QT_CONFIG(whatsthis)
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
+        self.btn1.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
+        self.btn2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
         self.Label_6.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7c7b\u578b", None))
         self.db_type_2.setItemText(0, QCoreApplication.translate("MainWindow", u"PostgreSQL", None))

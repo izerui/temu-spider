@@ -2,36 +2,55 @@ import logging
 
 from PySide6 import QtWidgets
 from PySide6.QtCore import Slot
-from PySide6.QtWidgets import QMessageBox
 
-from controller.support import Context
-from controller.worker import ConnectTestWorkThread
+from controller.db import get_db_settings, save_db_settings
+from controller.support import show_message
+from controller.worker import ConnectTestWorkThread, RecommendedFetchWorkThread
 from ui.ui_home import Ui_MainWindow
 
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
+    """
+    QT 应用主窗口事件槽
+    """
+
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.recommended_thread: RecommendedFetchWorkThread = None
 
     @Slot()
-    def start_fetch_data(self, *args, **kwargs):
-        try:
-            msg: QMessageBox = QMessageBox()
-            msg.setText('测试内容')
-            msg.setWindowTitle('测试标题')
-            msg.exec()
+    def fetch_recommended(self, *args, **kwargs):
+
+        @Slot(str)
+        def response_handler(str):
+            print('----->' + str)
             pass
-        except BaseException as e:
-            logging.exception(e)
-            Context.show_message(str(e), True)
+
+        if self.recommended_thread:
+            show_message('已经有一个相同的任务在运行了...', True)
+            return
+
+        self.recommended_thread = RecommendedFetchWorkThread()
+        self.recommended_thread.process.connect(response_handler)
+        self.recommended_thread.start()
+        self.btn1.setEnabled(False)
+        self.btn2.setEnabled(True)
+
+    @Slot()
+    def stop_fetch_recommended(self, *args, **kwargs):
+        if self.recommended_thread.isRunning():
+            self.recommended_thread.stop()
+        self.btn1.setEnabled(True)
+        self.btn2.setEnabled(False)
+        self.recommended_thread = None
 
     @Slot()
     def tab_changed(self, index: int):
         try:
             print(index)
             if index == 1:
-                settings = Context.get_settings()
+                settings = get_db_settings()
                 self.db_type_2.setCurrentText(settings['db_type'])
                 self.host_2.setText(settings['db_host'])
                 self.port_2.setValue(float(settings['db_port']))
@@ -41,7 +60,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             pass
         except BaseException as e:
             logging.exception(e)
-            Context.show_message(str(e), True)
+            show_message(str(e), True)
 
     @Slot()
     def save_settings_info(self, *args, **kwargs):
@@ -54,12 +73,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 'db_password': self.password_2.text(),
                 'db_database': self.database.text(),
             }
-            Context.save_settings(settings)
-            Context.show_message('设置成功')
+            save_db_settings(settings)
+            show_message('设置成功')
             pass
         except BaseException as e:
             logging.exception(e)
-            Context.show_message(str(e), True)
+            show_message(str(e), True)
 
     @Slot()
     def test_connection(self, *args, **kwargs):
@@ -68,9 +87,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         def result_handler(result):
             success, error = result
             if success:
-                Context.show_message('连接成功')
+                show_message('连接成功')
             else:
-                Context.show_message(error, True)
+                show_message(error, True)
 
         settings = {
             'db_type': self.db_type_2.currentText(),

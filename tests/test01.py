@@ -2,23 +2,8 @@ import asyncio
 import logging
 from enum import Enum
 
-from fastapi import FastAPI
 from playwright.async_api import async_playwright, Browser, Page, Response
 from playwright.sync_api import Browser, Frame
-
-from business import save_goods
-
-app = FastAPI(
-    title='temu-spider网络爬虫',
-    summary='网络爬虫',
-    description='temu商品信息网络爬取',
-    version='1.0',
-    license_info={
-        "name": "Apache 2.0",
-        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
-    }
-)
-
 
 class PageStatus(Enum):
     home = '首页'
