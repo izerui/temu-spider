@@ -63,16 +63,19 @@ class RecommendedFetchWorkThread(QThread):
                 headless=False,
                 args=["--disable-blink-features=AutomationControlled"],
             )
-            self.page = self.browser.new_page()
-            self.page.on("framenavigated", url_listener)
-            self.page.on("response", response_listener)
-            self.page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-            self.page.add_init_script("""
+            page = self.browser.new_page()
+            page.on("framenavigated", url_listener)
+            page.on("response", response_listener)
+            # with open('stealth.min.js', 'r') as f:
+            #     txt = f.read()
+            #     page.add_init_script(txt)
+            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => false})")
+            page.add_init_script("""
                                         Object.defineProperty(window, 'chrome', {
                                             get: () => ({ runtime: {} })
                                         });
                                     """)
-            self.page.add_init_script("""
+            page.add_init_script("""
                                         const getParameter = WebGLRenderingContext.prototype.getParameter;
                                         WebGLRenderingContext.prototype.getParameter = function(parameter) {
                                             if (parameter === 37445) {
@@ -84,35 +87,33 @@ class RecommendedFetchWorkThread(QThread):
                                             return getParameter(parameter);
                                         };
                                     """)
-            self.page.goto("https://temu.com/")
+            page.goto("https://temu.com/")
+            page.wait_for_load_state('load')
             while self._is_running:
                 # 滚动指定的距离，例如向下滚动 1000 像素
-                self.page.evaluate("window.scrollBy(0, 1000)")
+                page.evaluate("window.scrollBy(0, 1000)")
                 try:
                     # 等待某个元素出现
-                    self.page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
+                    page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
                     # 执行点击操作
-                    self.page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
+                    page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
                     continue
                 except BaseException as e:
                     logging.exception(e)
                 try:
                     # 等待某个元素出现
-                    self.page.wait_for_selector('//span[text()="重试"]')
+                    page.wait_for_selector('//span[text()="重试"]', timeout=3000)
                     # 执行点击操作
-                    self.page.click('//span[text()="重试"]')
+                    page.click('//span[text()="重试"]')
                     continue
                 except BaseException as e:
                     logging.exception(e)
-            self.page.close()
             self.browser.close()
             pass
 
     def stop(self):
         self._is_running = False
         try:
-            if self.page:
-                self.page.close()
             if self.browser:
                 self.browser.close()
         except BaseException as e:

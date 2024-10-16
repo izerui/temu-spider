@@ -23,10 +23,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def fetch_recommended(self, *args, **kwargs):
 
         @Slot(str)
-        def response_handler(str):
-            print('----->' + str)
+        def response_handler(responseText):
+            print('----->' + responseText)
+            self.textBrowser.append(responseText)
             pass
 
+        self.textBrowser.clear()
         if self.recommended_thread:
             show_message('已经有一个相同的任务在运行了...', True)
             return
