@@ -8,7 +8,7 @@ set_conf.setFallbacksEnabled(False)
 
 class Context(object):
     """
-    数据库配置
+    上下文操作类
     """
 
     @staticmethod
