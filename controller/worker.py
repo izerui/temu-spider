@@ -1,7 +1,8 @@
 import logging
 
 from PySide6.QtCore import QThread, Signal
-from playwright.sync_api import Response, Frame, sync_playwright, Browser, Page
+from playwright._impl._errors import TargetClosedError, TimeoutError
+from playwright.sync_api import Response, Frame, sync_playwright, Browser, Page, BrowserContext
 from sqlalchemy import text
 
 from controller.db import get_db_engine
@@ -57,18 +58,23 @@ class RecommendedFetchWorkThread(QThread):
             pass
 
         with sync_playwright() as playwright:
-            self.browser: Browser = playwright.chromium.launch_persistent_context(
+            # 通过命令: chrome://version/
+            # 查看相关路径
+            self.browser: BrowserContext = playwright.chromium.launch_persistent_context(
                 executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-                user_data_dir='~/Library/Application Support/Google/Chrome',
+                user_data_dir='/Users/liuyuhua/Library/Application Support/Google/Chrome/Default',
                 headless=False,
                 args=["--disable-blink-features=AutomationControlled"],
+                # proxy={
+                #     'server': 'http://127.0.0.1:7890',
+                # }
             )
             page = self.browser.new_page()
             page.on("framenavigated", url_listener)
             page.on("response", response_listener)
-            # with open('stealth.min.js', 'r') as f:
-            #     txt = f.read()
-            #     page.add_init_script(txt)
+            with open('stealth.min.js', 'r') as f:
+                txt = f.read()
+                page.add_init_script(txt)
             page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => false})")
             page.add_init_script("""
                                         Object.defineProperty(window, 'chrome', {
@@ -99,7 +105,7 @@ class RecommendedFetchWorkThread(QThread):
                     page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
                     continue
                 except BaseException as e:
-                    logging.exception(e)
+                    logging.warning(str(e))
                 try:
                     # 等待某个元素出现
                     page.wait_for_selector('//span[text()="重试"]', timeout=3000)
@@ -107,7 +113,7 @@ class RecommendedFetchWorkThread(QThread):
                     page.click('//span[text()="重试"]')
                     continue
                 except BaseException as e:
-                    logging.exception(e)
+                    logging.warning(str(e))
             self.browser.close()
             pass
 

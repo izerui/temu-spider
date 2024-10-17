@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -13,46 +16,112 @@
   <property name="windowTitle">
    <string>Temu Spider</string>
   </property>
+  <property name="tabShape">
+   <enum>QTabWidget::TabShape::Rounded</enum>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QTabWidget" name="tabWidget">
-      <property name="whatsThis">
-       <string/>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="tabShape">
+       <enum>QTabWidget::TabShape::Rounded</enum>
       </property>
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <property name="tabsClosable">
+      <property name="usesScrollButtons">
        <bool>false</bool>
       </property>
-      <widget class="QWidget" name="tab_2">
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab">
        <attribute name="title">
         <string>获取商品</string>
        </attribute>
-       <layout class="QGridLayout" name="gridLayout_2">
-        <item row="0" column="0">
-         <layout class="QVBoxLayout" name="verticalLayout">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
+          <property name="spacing">
+           <number>5</number>
+          </property>
           <property name="sizeConstraint">
-           <enum>QLayout::SizeConstraint::SetMinAndMaxSize</enum>
+           <enum>QLayout::SizeConstraint::SetMaximumSize</enum>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
           </property>
           <item>
+           <widget class="QTextBrowser" name="textBrowser"/>
+          </item>
+          <item>
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
            <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <property name="sizeConstraint">
+             <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+            </property>
             <property name="leftMargin">
              <number>0</number>
             </property>
+            <property name="rightMargin">
+             <number>8</number>
+            </property>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="Line" name="line">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+             </widget>
+            </item>
             <item>
              <widget class="QPushButton" name="btn1">
               <property name="minimumSize">
                <size>
-                <width>0</width>
-                <height>50</height>
+                <width>90</width>
+                <height>40</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>16777215</width>
-                <height>50</height>
+                <width>90</width>
+                <height>40</height>
                </size>
               </property>
               <property name="cursor">
@@ -67,14 +136,27 @@
              </widget>
             </item>
             <item>
+             <widget class="Line" name="line_3">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QPushButton" name="btn2">
               <property name="enabled">
                <bool>false</bool>
               </property>
               <property name="minimumSize">
                <size>
-                <width>0</width>
-                <height>50</height>
+                <width>90</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>90</width>
+                <height>40</height>
                </size>
               </property>
               <property name="text">
@@ -84,18 +166,27 @@
             </item>
            </layout>
           </item>
-          <item>
-           <widget class="QTextBrowser" name="textBrowser"/>
-          </item>
          </layout>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab_5">
+      <widget class="QWidget" name="tab_3">
        <attribute name="title">
         <string>系统配置</string>
        </attribute>
-       <layout class="QGridLayout" name="gridLayout_4">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
         <item row="0" column="0">
          <layout class="QFormLayout" name="formLayout_2">
           <property name="fieldGrowthPolicy">
@@ -217,38 +308,6 @@
             </property>
            </widget>
           </item>
-          <item row="6" column="1">
-           <widget class="QPushButton" name="pushButton_5">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>40</height>
-             </size>
-            </property>
-            <property name="cursor">
-             <cursorShape>PointingHandCursor</cursorShape>
-            </property>
-            <property name="text">
-             <string>测试</string>
-            </property>
-           </widget>
-          </item>
-          <item row="6" column="0">
-           <widget class="QPushButton" name="pushButton_4">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>40</height>
-             </size>
-            </property>
-            <property name="cursor">
-             <cursorShape>PointingHandCursor</cursorShape>
-            </property>
-            <property name="text">
-             <string>提交</string>
-            </property>
-           </widget>
-          </item>
           <item row="5" column="0">
            <widget class="QLabel" name="Label">
             <property name="text">
@@ -266,6 +325,50 @@
             </property>
            </widget>
           </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>55</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>55</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>提交</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="minimumSize">
+             <size>
+              <width>55</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>55</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>测试</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </item>
        </layout>
@@ -274,17 +377,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>640</width>
-     <height>24</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
   <tabstop>textBrowser</tabstop>
@@ -292,30 +384,14 @@
  <resources/>
  <connections>
   <connection>
-   <sender>tabWidget</sender>
-   <signal>currentChanged(int)</signal>
-   <receiver>MainWindow</receiver>
-   <slot>tab_changed()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>496</x>
-     <y>55</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>486</x>
-     <y>-31</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_4</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>save_settings_info()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>210</x>
-     <y>329</y>
+     <x>241</x>
+     <y>367</y>
     </hint>
     <hint type="destinationlabel">
      <x>209</x>
@@ -330,8 +406,8 @@
    <slot>test_connection()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>295</x>
-     <y>339</y>
+     <x>319</x>
+     <y>367</y>
     </hint>
     <hint type="destinationlabel">
      <x>295</x>
@@ -346,8 +422,8 @@
    <slot>fetch_recommended()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>164</x>
-     <y>81</y>
+     <x>486</x>
+     <y>463</y>
     </hint>
     <hint type="destinationlabel">
      <x>175</x>
@@ -362,12 +438,28 @@
    <slot>stop_fetch_recommended()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>556</x>
-     <y>98</y>
+     <x>602</x>
+     <y>443</y>
     </hint>
     <hint type="destinationlabel">
      <x>577</x>
      <y>-27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tabWidget_2</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>tab_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>192</x>
+     <y>41</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>-31</y>
     </hint>
    </hints>
   </connection>
