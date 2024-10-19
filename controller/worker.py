@@ -1,5 +1,6 @@
 import logging
 import random
+import time
 from urllib import parse
 
 from PySide6.QtCore import QThread, Signal
@@ -73,12 +74,15 @@ class RecommendedFetchWorkThread(QThread):
                     args=[
                         '--disable-blink-features=AutomationControlled',
                         '--disable-infobars',
+                        '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                     ],
                     ignore_default_args=[
                         '--enable-automation'
                     ],
                     proxy={
-                        'server': 'http://8.220.204.215:8008',
+                        'server': 'http://127.0.0.1:7890',
+                        # 'username': 'vyxbqrga',
+                        # 'password': 'y5f9sg8m',
                     }
                 )
                 # page = self.browser.new_page()
@@ -117,10 +121,12 @@ class RecommendedFetchWorkThread(QThread):
         page_count = 0
         while self._is_running:
             print(page.url)
+            time.sleep(random.randint(1, 3))
             # 如果出现验证码，等待人工验证，直到出现查看更多按钮
             if page.url.startswith("https://www.temu.com/bgn_verification.html"):
                 try:
-                    page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
+                    page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
+                    continue
                 except:
                     pass
             # 如果转到空白页，则按上一次的地址进行跳转

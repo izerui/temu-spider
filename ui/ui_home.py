@@ -231,7 +231,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Temu Spider", None))
-        self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"https://www.temu.com/us-zh-Hans/channel/best-sellers.html", None))
+        self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"https://www.temu.com/us-zh-Hans/mens---o3-1699.html", None))
         self.btn1.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
         self.btn2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
