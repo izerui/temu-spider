@@ -1,5 +1,6 @@
 import logging
 import random
+from urllib import parse
 
 from PySide6.QtCore import QThread, Signal
 from playwright.sync_api import Response, Frame, sync_playwright, Browser, Page, BrowserContext
@@ -64,49 +65,53 @@ class RecommendedFetchWorkThread(QThread):
         with sync_playwright() as playwright:
             # 通过命令: chrome://version/
             # 查看相关路径
-            self.browser: BrowserContext = playwright.chromium.launch_persistent_context(
-                executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-                user_data_dir='',
-                headless=False,
-                args=[
-                    '--disable-blink-features=AutomationControlled',
-                    '--disable-infobars',
-                ],
-                ignore_default_args=[
-                    '--enable-automation'
-                ],
-                proxy={
-                    'server': 'http://127.0.0.1:7890',
-                }
-            )
-            # page = self.browser.new_page()
-            page = self.browser.pages[0]
-            page.on("framenavigated", url_listener)
-            page.on("response", response_listener)
-            with open('stealth.min.js', 'r') as f:
-                txt = f.read()
-                page.add_init_script(txt)
-            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => false})")
-            page.add_init_script("""
-                                        Object.defineProperty(window, 'chrome', {
-                                            get: () => ({ runtime: {} })
-                                        });
-                                    """)
-            page.add_init_script("""
-                                        const getParameter = WebGLRenderingContext.prototype.getParameter;
-                                        WebGLRenderingContext.prototype.getParameter = function(parameter) {
-                                            if (parameter === 37445) {
-                                                return 'Intel Open Source Technology Center';
-                                            }
-                                            if (parameter === 37446) {
-                                                return 'Mesa DRI Intel(R) HD Graphics 620 (Kaby Lake GT2) ';
-                                            }
-                                            return getParameter(parameter);
-                                        };
-                                    """)
-            page.goto(self.page_open_url, wait_until='load')
-            # page.wait_for_load_state('load')
-            self.fetch(page)
+            try:
+                self.browser: BrowserContext = playwright.chromium.launch_persistent_context(
+                    executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+                    user_data_dir='',
+                    headless=False,
+                    args=[
+                        '--disable-blink-features=AutomationControlled',
+                        '--disable-infobars',
+                    ],
+                    ignore_default_args=[
+                        '--enable-automation'
+                    ],
+                    proxy={
+                        'server': 'http://8.220.204.215:8008',
+                    }
+                )
+                # page = self.browser.new_page()
+                page = self.browser.pages[0]
+                page.on("framenavigated", url_listener)
+                page.on("response", response_listener)
+                with open('stealth.min.js', 'r') as f:
+                    txt = f.read()
+                    page.add_init_script(txt)
+                page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => false})")
+                page.add_init_script("""
+                                            Object.defineProperty(window, 'chrome', {
+                                                get: () => ({ runtime: {} })
+                                            });
+                                        """)
+                page.add_init_script("""
+                                            const getParameter = WebGLRenderingContext.prototype.getParameter;
+                                            WebGLRenderingContext.prototype.getParameter = function(parameter) {
+                                                if (parameter === 37445) {
+                                                    return 'Intel Open Source Technology Center';
+                                                }
+                                                if (parameter === 37446) {
+                                                    return 'Mesa DRI Intel(R) HD Graphics 620 (Kaby Lake GT2) ';
+                                                }
+                                                return getParameter(parameter);
+                                            };
+                                        """)
+                page.goto(self.page_open_url, wait_until='load')
+                # page.wait_for_load_state('load')
+                self.fetch(page)
+            except BaseException as e:
+                self.process.emit(str(e))
+                logging.exception(e)
 
     def fetch(self, page: Page):
         page_count = 0
@@ -128,10 +133,14 @@ class RecommendedFetchWorkThread(QThread):
             # 如果转到登录页，则后退，并刷新页面
             elif page.url.startswith('https://www.temu.com/login.html'):  # 防爬机制导致转到登录页的情况
                 try:
-                    self.self.open_sku_and_close()
-                    page.go_back(wait_until='load')
+                    last_url = page.url.replace('https://www.temu.com/login.html?from=', '')
+                    last_url = parse.unquote(last_url)
+                    self.page_current_url = last_url
+                    self.open_sku_and_close()
+                    page.goto(self.page_current_url, wait_until='load')
                 except:
                     pass
+                continue
             # 如果正常为当前商品列表页则执行抓取
             if page.url.startswith(self.page_open_url):
                 self.page_current_url = page.url
@@ -150,7 +159,7 @@ class RecommendedFetchWorkThread(QThread):
 
                 # 如果翻页进行2~4次左右则新开一个商品详情页并关闭，然后刷新当前商品列表页面
                 if page_count > random.randint(2, 4):
-                    self.self.open_sku_and_close()
+                    self.open_sku_and_close()
                     page.reload(wait_until='load')
                     page_count = 0
 
