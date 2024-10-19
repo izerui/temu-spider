@@ -67,12 +67,11 @@ async def page_turning(page: Page):
 
 
 async def main():
+    # user_data_dir = '/Users/liuyuhua/Library/Application Support/Google/Chrome/Default'
     async with async_playwright() as p:
-        # 指定 Chrome 的用户数据目录
-        user_data_dir = '~/Library/Application Support/Google/Chrome'
         browser: Browser = await p.chromium.launch_persistent_context(
             executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-            user_data_dir=user_data_dir,
+            user_data_dir='',
             headless=False,
             args=["--disable-blink-features=AutomationControlled"],
         )

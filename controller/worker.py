@@ -1,7 +1,7 @@
 import logging
+import random
 
 from PySide6.QtCore import QThread, Signal
-from playwright._impl._errors import TargetClosedError, TimeoutError
 from playwright.sync_api import Response, Frame, sync_playwright, Browser, Page, BrowserContext
 from sqlalchemy import text
 
@@ -35,16 +35,19 @@ class ConnectTestWorkThread(QThread):
 class RecommendedFetchWorkThread(QThread):
     process = Signal(str)
 
-    def __init__(self):
+    def __init__(self, page_open_url):
         super().__init__()
+        self.page_open_url = page_open_url
+        self.page_current_url = page_open_url
         self.browser: Browser = None
         self.page: Page = None
         self._is_running = True
+        self.sku_links = []
 
     def run(self):
 
         def url_listener(frame: Frame):
-            print(f"New URL: {frame.url}")
+            print(f"页面跳转: {frame.url}")
 
         def response_listener(response: Response):
             # print(f'url: {response.url}')
@@ -54,22 +57,30 @@ class RecommendedFetchWorkThread(QThread):
                 response_text = response.text()
                 print(f'发现商品 url: {response.url}')
                 print(f'商品内容 text : {response_text}')
-                self.process.emit(response_text)
+                # self.process.emit(response_text)
             pass
 
+        # user_data_dir = '/Users/liuyuhua/Library/Application Support/Google/Chrome/Default'
         with sync_playwright() as playwright:
             # 通过命令: chrome://version/
             # 查看相关路径
             self.browser: BrowserContext = playwright.chromium.launch_persistent_context(
                 executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-                user_data_dir='/Users/liuyuhua/Library/Application Support/Google/Chrome/Default',
+                user_data_dir='',
                 headless=False,
-                args=["--disable-blink-features=AutomationControlled"],
-                # proxy={
-                #     'server': 'http://127.0.0.1:7890',
-                # }
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--disable-infobars',
+                ],
+                ignore_default_args=[
+                    '--enable-automation'
+                ],
+                proxy={
+                    'server': 'http://127.0.0.1:7890',
+                }
             )
-            page = self.browser.new_page()
+            # page = self.browser.new_page()
+            page = self.browser.pages[0]
             page.on("framenavigated", url_listener)
             page.on("response", response_listener)
             with open('stealth.min.js', 'r') as f:
@@ -93,28 +104,91 @@ class RecommendedFetchWorkThread(QThread):
                                             return getParameter(parameter);
                                         };
                                     """)
-            page.goto("https://temu.com/")
-            page.wait_for_load_state('load')
-            while self._is_running:
-                # 滚动指定的距离，例如向下滚动 1000 像素
-                page.evaluate("window.scrollBy(0, 1000)")
+            page.goto(self.page_open_url, wait_until='load')
+            # page.wait_for_load_state('load')
+            self.fetch(page)
+
+    def fetch(self, page: Page):
+        page_count = 0
+        while self._is_running:
+            print(page.url)
+            # 如果出现验证码，等待人工验证，直到出现查看更多按钮
+            if page.url.startswith("https://www.temu.com/bgn_verification.html"):
                 try:
-                    # 等待某个元素出现
-                    page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
-                    # 执行点击操作
-                    page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
-                    continue
+                    page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr")
+                except:
+                    pass
+            # 如果转到空白页，则按上一次的地址进行跳转
+            elif page.url == 'about:blank':
+                try:
+                    page.goto(self.page_current_url, wait_until='load')
+                except:
+                    pass
+                continue
+            # 如果转到登录页，则后退，并刷新页面
+            elif page.url.startswith('https://www.temu.com/login.html'):  # 防爬机制导致转到登录页的情况
+                try:
+                    self.self.open_sku_and_close()
+                    page.go_back(wait_until='load')
+                except:
+                    pass
+            # 如果正常为当前商品列表页则执行抓取
+            if page.url.startswith(self.page_open_url):
+                self.page_current_url = page.url
+                try:
+                    # 查找 class 中包含 autoFitList 的 div 元素
+                    divs = page.query_selector_all('div[class*="autoFitList"]')
+                    for div in divs:
+                        alist = div.query_selector_all('a')
+                        for a in alist:
+                            href = a.get_attribute('href')
+                            link = f"https://temu.com/{href}"
+                            self.sku_links.append(link)
+                            self.process.emit(link)
                 except BaseException as e:
-                    logging.warning(str(e))
-                try:
+                    pass
+
+                # 如果翻页进行2~4次左右则新开一个商品详情页并关闭，然后刷新当前商品列表页面
+                if page_count > random.randint(2, 4):
+                    self.self.open_sku_and_close()
+                    page.reload(wait_until='load')
+                    page_count = 0
+
+            # 滚动指定的距离，例如向下滚动 1000 像素
+            page.evaluate("window.scrollBy(0, 1000)")
+            try:
+                # 等待某个元素出现
+                page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
+                # 执行点击操作
+                page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", delay=random.randint(2000, 5000))
+                page_count += 1
+                continue
+            except BaseException as e:
+                logging.warning(str(e))
+
+            # 出现重试
+            try:
+                if len(self.sku_links) > 0:
                     # 等待某个元素出现
                     page.wait_for_selector('//span[text()="重试"]', timeout=3000)
                     # 执行点击操作
-                    page.click('//span[text()="重试"]')
-                    continue
-                except BaseException as e:
-                    logging.warning(str(e))
-            self.browser.close()
+                    page.click('//span[text()="重试"]', delay=random.randint(1000, 3000))
+            except BaseException as e:
+                logging.warning(str(e))
+
+            # page.bring_to_front()
+
+        self.browser.close()
+        pass
+
+    def open_sku_and_close(self):
+        try:
+            if len(self.sku_links) > 0:
+                last_sku_link = self.sku_links[-1]
+                sku_page = self.browser.new_page()
+                sku_page.goto(last_sku_link, wait_until='load')
+                sku_page.close()
+        except BaseException as e:
             pass
 
     def stop(self):

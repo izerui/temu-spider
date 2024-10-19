@@ -28,12 +28,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             self.textBrowser.append(responseText)
             pass
 
+        if not self.lineEdit.text():
+            show_message('请输入要爬取的temu网站的具体某个商品列表页地址', warning=True)
+            return
+
         self.textBrowser.clear()
         if self.recommended_thread:
             show_message('已经有一个相同的任务在运行了...', True)
             return
 
-        self.recommended_thread = RecommendedFetchWorkThread()
+        self.recommended_thread = RecommendedFetchWorkThread(self.lineEdit.text())
         self.recommended_thread.process.connect(response_handler)
         self.recommended_thread.start()
         self.btn1.setEnabled(False)

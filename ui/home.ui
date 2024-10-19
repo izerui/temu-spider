@@ -91,17 +91,17 @@
              <number>8</number>
             </property>
             <item>
-             <spacer name="horizontalSpacer">
-              <property name="orientation">
-               <enum>Qt::Orientation::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="minimumSize">
                <size>
-                <width>40</width>
-                <height>20</height>
+                <width>300</width>
+                <height>0</height>
                </size>
               </property>
-             </spacer>
+              <property name="text">
+               <string>https://www.temu.com/us-zh-Hans/channel/best-sellers.html</string>
+              </property>
+             </widget>
             </item>
             <item>
              <widget class="Line" name="line">

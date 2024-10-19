@@ -18,8 +18,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QComboBox, QDoubleSpinBox,
     QFormLayout, QFrame, QGridLayout, QHBoxLayout,
     QLabel, QLayout, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QSpacerItem, QTabWidget,
-    QTextBrowser, QVBoxLayout, QWidget)
+    QPushButton, QSizePolicy, QTabWidget, QTextBrowser,
+    QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -64,9 +64,11 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setSizeConstraint(QLayout.SizeConstraint.SetDefaultConstraint)
         self.horizontalLayout_3.setContentsMargins(0, -1, 8, -1)
-        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.lineEdit = QLineEdit(self.tab)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setMinimumSize(QSize(300, 0))
 
-        self.horizontalLayout_3.addItem(self.horizontalSpacer)
+        self.horizontalLayout_3.addWidget(self.lineEdit)
 
         self.line = QFrame(self.tab)
         self.line.setObjectName(u"line")
@@ -229,6 +231,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Temu Spider", None))
+        self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"https://www.temu.com/us-zh-Hans/channel/best-sellers.html", None))
         self.btn1.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
         self.btn2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
