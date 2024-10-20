@@ -75,18 +75,18 @@ class RecommendedFetchWorkThread(QThread):
                         '--disable-blink-features=AutomationControlled',
                         '--disable-infobars',
                         '--no-sandbox',
-                        '--incognito',
+                        '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                     ],
                     ignore_default_args=[
                         '--enable-automation'
-                    ]
-                )
-                self.context = self.browser.new_context(
-                    user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                    proxy= {
-                        'server': '192.168.1.59:24000',
+                    ],
+                    proxy={
+                        'server': 'http://127.0.0.1:7890',
+                        # 'username': 'vyxbqrga',
+                        # 'password': 'y5f9sg8m',
                     }
                 )
+                self.context = self.browser.new_context()
                 # page = self.browser.new_page()
                 page = self.context.new_page()
                 page.on("framenavigated", url_listener)
@@ -203,7 +203,7 @@ class RecommendedFetchWorkThread(QThread):
         try:
             if len(self.sku_links) > 0:
                 last_sku_link = self.sku_links[-1]
-                sku_page = self.context.new_page()
+                sku_page = self.browser.new_page()
                 sku_page.goto(last_sku_link, wait_until='load')
                 sku_page.close()
         except BaseException as e:

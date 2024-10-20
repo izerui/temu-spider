@@ -42,7 +42,6 @@ class RecommendedFetchWorkThread(QThread):
         self.page_open_url = page_open_url
         self.page_current_url = page_open_url
         self.browser: Browser = None
-        self.context: BrowserContext = None
         self.page: Page = None
         self._is_running = True
         self.sku_links = []
@@ -68,27 +67,9 @@ class RecommendedFetchWorkThread(QThread):
             # 通过命令: chrome://version/
             # 查看相关路径
             try:
-                self.browser: Browser = playwright.chromium.launch(
-                    channel="chrome",
-                    headless=False,
-                    args=[
-                        '--disable-blink-features=AutomationControlled',
-                        '--disable-infobars',
-                        '--no-sandbox',
-                        '--incognito',
-                    ],
-                    ignore_default_args=[
-                        '--enable-automation'
-                    ]
-                )
-                self.context = self.browser.new_context(
-                    user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                    proxy= {
-                        'server': '192.168.1.59:24000',
-                    }
-                )
+                self.browser = playwright.chromium.connect_over_cdp("http://localhost:9999").contexts[0]
                 # page = self.browser.new_page()
-                page = self.context.new_page()
+                page = self.browser.new_page()
                 page.on("framenavigated", url_listener)
                 page.on("response", response_listener)
                 with open('stealth.min.js', 'r') as f:
@@ -195,7 +176,6 @@ class RecommendedFetchWorkThread(QThread):
 
             # page.bring_to_front()
 
-        self.context.close()
         self.browser.close()
         pass
 
@@ -203,7 +183,7 @@ class RecommendedFetchWorkThread(QThread):
         try:
             if len(self.sku_links) > 0:
                 last_sku_link = self.sku_links[-1]
-                sku_page = self.context.new_page()
+                sku_page = self.browser.new_page()
                 sku_page.goto(last_sku_link, wait_until='load')
                 sku_page.close()
         except BaseException as e:
@@ -212,8 +192,6 @@ class RecommendedFetchWorkThread(QThread):
     def stop(self):
         self._is_running = False
         try:
-            if self.context:
-                self.context.close()
             if self.browser:
                 self.browser.close()
         except BaseException as e:
