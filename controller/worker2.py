@@ -81,7 +81,7 @@ class RecommendedFetchWorkThread(QThread):
                         '--enable-automation'
                     ],
                     proxy={
-                        'server': 'http://127.0.0.1:7890',
+                        'server': 'socks5://127.0.0.1:1087',
                         # 'username': 'vyxbqrga',
                         # 'password': 'y5f9sg8m',
                     }

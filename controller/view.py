@@ -1,11 +1,15 @@
 import logging
+import time
+from threading import Thread
 
+import requests
+import schedule
 from PySide6 import QtWidgets
 from PySide6.QtCore import Slot
 
 from controller.db import get_db_settings, save_db_settings
 from controller.support import show_message
-from controller.worker import ConnectTestWorkThread, RecommendedFetchWorkThread
+from controller.worker import ConnectTestWorkThread, CategoryFetchWorkThread
 from ui.ui_home import Ui_MainWindow
 
 
@@ -17,10 +21,61 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.recommended_thread: RecommendedFetchWorkThread = None
+        self.category_thread: CategoryFetchWorkThread = None
+        self.proxy = None
+        # self.proxy = {
+        #     'server': 'http://as.x479.kdlfps.com:18866',
+        #     'username': 'f2277811048',
+        #     'password': 'cqclmjfn',
+        # }
+        # self.proxy = {
+        #     'server': 'http://proxy.shenlongproxy.com:31212',
+        #     'username': 'customer-cb8773a8ed6-country-US-session-250sahsop-time-3',
+        #     'password': '26589497',
+        # }
+        # self.proxy = {
+        #     'server': 'http://b4ade676d0deda12.fkz.as.ipidea.online:2336',
+        #     'username': 'abcd003-zone-custom-session-123b1cmag-sessTime-3',
+        #     'password': 'abcd003',
+        # }
+        thread = Thread(target=self.schedule_ip_status)
+        thread.start()
+
+    def schedule_ip_status(self):
+        """
+        定时刷新出口信息,并显示在状态栏
+        """
+
+        last_tip_message: str = None
+        time_out_seconds: int = 30
+
+        def refresh_ip():
+            try:
+                self.myStatusBar.showMessage('加载中...')
+                if self.proxy:
+                    proxies = {
+                        "http": f"{self.proxy['server'][:7]}{self.proxy['username']}:{self.proxy['password']}@{self.proxy['server'][7:]}",
+                        "https": f"{self.proxy['server'][:7]}{self.proxy['username']}:{self.proxy['password']}@{self.proxy['server'][7:]}",
+                    }
+                    response = requests.get('https://api.ip.cc/', proxies=proxies)
+                else:
+                    response = requests.get('https://api.ip.cc/')
+                ipObj = response.json()
+                self.myStatusBar.showMessage(
+                    f'连接成功: {ipObj["ip"]}  {ipObj["country"]}  {ipObj["timezone"]}  {ipObj["asn_name"]}')
+            except BaseException as e:
+                self.myStatusBar.showMessage(f'连接失败: {repr(e)}')
+
+        # 初始化先执行一次
+        refresh_ip()
+        # 每隔30秒执行一次任务
+        schedule.every(30).seconds.do(refresh_ip)
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
 
     @Slot()
-    def fetch_recommended(self, *args, **kwargs):
+    def fetch_category(self, *args, **kwargs):
 
         @Slot(str)
         def response_handler(responseText):
@@ -33,23 +88,23 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             return
 
         self.textBrowser.clear()
-        if self.recommended_thread:
+        if self.category_thread:
             show_message('已经有一个相同的任务在运行了...', True)
             return
 
-        self.recommended_thread = RecommendedFetchWorkThread(self.lineEdit.text())
-        self.recommended_thread.process.connect(response_handler)
-        self.recommended_thread.start()
+        self.category_thread = CategoryFetchWorkThread(self.proxy, self.lineEdit.text())
+        self.category_thread.process.connect(response_handler)
+        self.category_thread.start()
         self.btn1.setEnabled(False)
         self.btn2.setEnabled(True)
 
     @Slot()
-    def stop_fetch_recommended(self, *args, **kwargs):
-        if self.recommended_thread.isRunning():
-            self.recommended_thread.stop()
+    def stop_fetch_category(self, *args, **kwargs):
+        if self.category_thread.isRunning():
+            self.category_thread.stop()
         self.btn1.setEnabled(True)
         self.btn2.setEnabled(False)
-        self.recommended_thread = None
+        self.category_thread = None
 
     @Slot()
     def tab_changed(self, index: int):

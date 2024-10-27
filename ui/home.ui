@@ -377,6 +377,7 @@
     </item>
    </layout>
   </widget>
+  <widget class="QStatusBar" name="myStatusBar"/>
  </widget>
  <tabstops>
   <tabstop>textBrowser</tabstop>
@@ -419,7 +420,7 @@
    <sender>btn1</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>fetch_recommended()</slot>
+   <slot>fetch_category()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>486</x>
@@ -435,7 +436,7 @@
    <sender>btn2</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>stop_fetch_recommended()</slot>
+   <slot>stop_fetch_category()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>602</x>

@@ -18,8 +18,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QComboBox, QDoubleSpinBox,
     QFormLayout, QFrame, QGridLayout, QHBoxLayout,
     QLabel, QLayout, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QTabWidget, QTextBrowser,
-    QVBoxLayout, QWidget)
+    QPushButton, QSizePolicy, QStatusBar, QTabWidget,
+    QTextBrowser, QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -215,12 +215,15 @@ class Ui_MainWindow(object):
         self.gridLayout.addWidget(self.tabWidget_2, 0, 0, 1, 1)
 
         MainWindow.setCentralWidget(self.centralwidget)
+        self.myStatusBar = QStatusBar(MainWindow)
+        self.myStatusBar.setObjectName(u"myStatusBar")
+        MainWindow.setStatusBar(self.myStatusBar)
 
         self.retranslateUi(MainWindow)
         self.pushButton_4.clicked.connect(MainWindow.save_settings_info)
         self.pushButton_5.clicked.connect(MainWindow.test_connection)
-        self.btn1.clicked.connect(MainWindow.fetch_recommended)
-        self.btn2.clicked.connect(MainWindow.stop_fetch_recommended)
+        self.btn1.clicked.connect(MainWindow.fetch_category)
+        self.btn2.clicked.connect(MainWindow.stop_fetch_category)
         self.tabWidget_2.currentChanged.connect(MainWindow.tab_changed)
 
         self.tabWidget_2.setCurrentIndex(0)
