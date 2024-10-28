@@ -7,9 +7,10 @@ import schedule
 from PySide6 import QtWidgets
 from PySide6.QtCore import Slot
 
+from controller.category_worker import CategoryFetchWorkThread
+from controller.connect_worker import ConnectTestWorkThread
 from controller.db import get_db_settings, save_db_settings
 from controller.support import show_message
-from controller.worker import ConnectTestWorkThread, CategoryFetchWorkThread
 from ui.ui_home import Ui_MainWindow
 
 
@@ -45,9 +46,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         """
         定时刷新出口信息,并显示在状态栏
         """
-
-        last_tip_message: str = None
-        time_out_seconds: int = 30
 
         def refresh_ip():
             try:
