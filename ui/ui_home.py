@@ -11,23 +11,27 @@
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
+    QCursor, QFont, QFontDatabase, QGradient,
+    QIcon, QImage, QKeySequence, QLinearGradient,
+    QPainter, QPalette, QPixmap, QRadialGradient,
+    QTransform)
 from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QComboBox, QDoubleSpinBox,
     QFormLayout, QFrame, QGridLayout, QHBoxLayout,
     QLabel, QLayout, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QStatusBar, QTabWidget,
-    QTextBrowser, QVBoxLayout, QWidget)
+    QMenu, QMenuBar, QPushButton, QSizePolicy,
+    QStatusBar, QTabWidget, QTextBrowser, QVBoxLayout,
+    QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.setWindowModality(Qt.WindowModality.WindowModal)
-        MainWindow.resize(640, 480)
+        MainWindow.resize(658, 480)
         MainWindow.setTabShape(QTabWidget.TabShape.Rounded)
+        self.actiontools = QAction(MainWindow)
+        self.actiontools.setObjectName(u"actiontools")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -70,6 +74,14 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_3.addWidget(self.lineEdit)
 
+        self.pushButton = QPushButton(self.tab)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setMinimumSize(QSize(80, 40))
+        self.pushButton.setMaximumSize(QSize(80, 40))
+        self.pushButton.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+
+        self.horizontalLayout_3.addWidget(self.pushButton)
+
         self.line = QFrame(self.tab)
         self.line.setObjectName(u"line")
         self.line.setFrameShape(QFrame.Shape.VLine)
@@ -79,8 +91,8 @@ class Ui_MainWindow(object):
 
         self.btn1 = QPushButton(self.tab)
         self.btn1.setObjectName(u"btn1")
-        self.btn1.setMinimumSize(QSize(90, 40))
-        self.btn1.setMaximumSize(QSize(90, 40))
+        self.btn1.setMinimumSize(QSize(80, 40))
+        self.btn1.setMaximumSize(QSize(80, 40))
         self.btn1.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.btn1.setFocusPolicy(Qt.FocusPolicy.TabFocus)
 
@@ -96,8 +108,8 @@ class Ui_MainWindow(object):
         self.btn2 = QPushButton(self.tab)
         self.btn2.setObjectName(u"btn2")
         self.btn2.setEnabled(False)
-        self.btn2.setMinimumSize(QSize(90, 40))
-        self.btn2.setMaximumSize(QSize(90, 40))
+        self.btn2.setMinimumSize(QSize(80, 40))
+        self.btn2.setMaximumSize(QSize(80, 40))
 
         self.horizontalLayout_3.addWidget(self.btn2)
 
@@ -218,6 +230,15 @@ class Ui_MainWindow(object):
         self.myStatusBar = QStatusBar(MainWindow)
         self.myStatusBar.setObjectName(u"myStatusBar")
         MainWindow.setStatusBar(self.myStatusBar)
+        self.menuBar = QMenuBar(MainWindow)
+        self.menuBar.setObjectName(u"menuBar")
+        self.menuBar.setGeometry(QRect(0, 0, 658, 33))
+        self.menu = QMenu(self.menuBar)
+        self.menu.setObjectName(u"menu")
+        MainWindow.setMenuBar(self.menuBar)
+
+        self.menuBar.addAction(self.menu.menuAction())
+        self.menu.addAction(self.actiontools)
 
         self.retranslateUi(MainWindow)
         self.pushButton_4.clicked.connect(MainWindow.save_settings_info)
@@ -225,6 +246,8 @@ class Ui_MainWindow(object):
         self.btn1.clicked.connect(MainWindow.fetch_category)
         self.btn2.clicked.connect(MainWindow.stop_fetch_category)
         self.tabWidget_2.currentChanged.connect(MainWindow.tab_changed)
+        self.pushButton.clicked.connect(MainWindow.show_tree_dialog)
+        self.menuBar.triggered.connect(MainWindow.menu_action)
 
         self.tabWidget_2.setCurrentIndex(0)
 
@@ -234,7 +257,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Temu Spider", None))
+        self.actiontools.setText(QCoreApplication.translate("MainWindow", u"\u6d4b\u8bd5\u4ee3\u7406", None))
         self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"https://www.temu.com/us-zh-Hans/mens---o3-1699.html", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9\u5206\u7c7b", None))
         self.btn1.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
         self.btn2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
@@ -250,5 +275,6 @@ class Ui_MainWindow(object):
         self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"\u63d0\u4ea4", None))
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"\u6d4b\u8bd5", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_3), QCoreApplication.translate("MainWindow", u"\u7cfb\u7edf\u914d\u7f6e", None))
+        self.menu.setTitle(QCoreApplication.translate("MainWindow", u"\u5de5\u5177", None))
     # retranslateUi
 

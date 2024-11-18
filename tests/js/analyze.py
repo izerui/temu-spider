@@ -16,7 +16,7 @@ if __name__ == '__main__':
     current_file_path_os = os.path.abspath(__file__)
     current_dir_path_os = os.path.dirname(current_file_path_os)
     script_contents = None
-    with open(os.path.join(current_dir_path_os, '1.txt'), 'r') as f:
+    with open(os.path.join(current_dir_path_os, 'login.txt'), 'r') as f:
         text = f.read()
         # 提取 <script> 标签中的内容
         script_contents = extract_script_content(text)
@@ -25,8 +25,9 @@ if __name__ == '__main__':
         for i, content in enumerate(script_contents, 1):
             print(f"Script {i} content:\n{content}\n")
 
-    js_file = os.path.join(current_dir_path_os, 'js1.txt')
-    os.remove(js_file)
+    js_file = os.path.join(current_dir_path_os, 'js_login.txt')
+    if os.path.exists(js_file):
+        os.remove(js_file)
     with open(js_file, 'a') as f:
         # 打印结果
         for i, content in enumerate(script_contents, 1):

@@ -13,9 +13,8 @@
    * `pip install psycopg2-binary`
    * `pip install pymysql`
    * `pip install schedule`
-4. 启动应用: 
-   * `uvicorn main:app --host 0.0.0.0 --timeout-keep-alive 60 --workers 1`
-
+4. test依赖
+   * `pip install lxml`
 
 
 附:

@@ -84,6 +84,8 @@ class CategoryFetchWorkThread(QThread):
     def fetch(self, page: Page):
         page_count = 0
         while self._is_running:
+            self.process.emit("信息: 重置时长超过50ms的长任务数组记录。")
+            self.clear_long_task_array(page)
             print(page.url)
             time.sleep(random.randint(1, 3))
             try:
@@ -130,7 +132,6 @@ class CategoryFetchWorkThread(QThread):
                                 link = f"https://temu.com/{href}"
                                 self.sku_links.append(link)
                     except BaseException as e:
-                        self.process.emit(repr(e))
                         pass
 
                     # 如果翻页进行2~4次左右则新开一个商品详情页并关闭，然后刷新当前商品列表页面
@@ -141,15 +142,49 @@ class CategoryFetchWorkThread(QThread):
                         page.reload(wait_until='load')
                         page_count = 0
             except BaseException as e:
-                self.process.emit(repr(e))
+                self.process.emit(f'错误: {repr(e)}')
                 logging.warning(repr(e))
-            page.mouse.move(random.randint(0, 400), random.randint(0, 400))
+
+            # 取模运算决定执行逻辑
+            if (random.randint(1, 100) // 2) % 2 == 0:
+                # 模拟按下空格键
+                self.process.emit(f'信息: 模拟空格键按下。')
+                page.keyboard.press("Space")
+            else:
+                # 模拟按下空格键
+                self.process.emit(f'信息: 模拟空格键按下。')
+                page.keyboard.press("Space")
+
+            self.process.emit(f'信息: 模拟移动鼠标。')
+
+            # 定义 Z 字型的三个点
+            start_x, start_y = random.randint(0, 200), random.randint(0, 200)  # 左上角
+            end_x, end_y = random.randint(0, 1900), random.randint(0, 1900)  # 右下角
+            middle_x, middle_y = end_x, start_y  # 右上角
+            bottom_left_x, bottom_left_y = start_x, end_y  # 左下角
+
+            # 移动到起点
+            page.mouse.move(start_x, start_y, steps=100)
+            time.sleep(1)
+            # 第一步：从左上角移动到右上角
+            page.mouse.move(middle_x, middle_y, steps=100)
+            time.sleep(1)
+            # 第二步：从右上角移动到左下角
+            page.mouse.move(bottom_left_x, bottom_left_y, steps=100)
+            time.sleep(1)
+            # 第三步：从左下角移动到右下角
+            page.mouse.move(end_x, end_y, steps=100)
+            time.sleep(1)
+
             # 滚动指定的距离，例如向下滚动 1000 像素
+            self.process.emit(f'信息: 向下滚动1000像素。')
             page.evaluate("window.scrollBy(0, 1000)")
+
             try:
                 # 等待某个元素出现
                 page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
                 # 执行点击操作
+                self.process.emit(f'信息: 点击更多按钮，显示更多商品。')
                 page.click("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", delay=random.randint(2000, 5000))
                 page_count += 1
                 continue
@@ -162,15 +197,23 @@ class CategoryFetchWorkThread(QThread):
                     # 等待某个元素出现
                     page.wait_for_selector('//span[text()="重试"]', timeout=3000)
                     # 执行点击操作
+                    self.process.emit(f'信息: 点击重试按钮。')
                     page.click('//span[text()="重试"]', delay=random.randint(1000, 3000))
             except BaseException as e:
                 logging.warning(repr(e))
             pass
             # page.bring_to_front()
-
+        self.process.emit(f'信息: 关闭页面')
         self.context.close()
         self.browser.close()
         pass
+
+    def clear_long_task_array(self, page: Page):
+        page.evaluate("""() => {
+            if (window.__tti && window.__tti.e) {
+                window.__tti.e = [];
+            }
+        }""")
 
     def open_sku_and_close(self):
         try:
@@ -180,6 +223,10 @@ class CategoryFetchWorkThread(QThread):
                 self.fixed_page(sku_page)
                 sku_page.goto(last_sku_link, wait_until='load')
                 self.process.emit("信息: 随机等待1~3秒后关闭详情页。")
+                # 滚动指定的距离，例如向下滚动 1000 像素
+                self.process.emit(f'信息: 详情页向下滚动1000像素。')
+                sku_page.evaluate(f"window.scrollBy(0, {random.randint(200, 800)})")
+
                 time.sleep(random.randint(1, 3))
                 sku_page.close()
         except BaseException as e:
