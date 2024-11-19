@@ -18,10 +18,10 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QTransform)
 from PySide6.QtWidgets import (QAbstractSpinBox, QApplication, QComboBox, QDoubleSpinBox,
     QFormLayout, QFrame, QGridLayout, QHBoxLayout,
-    QLabel, QLayout, QLineEdit, QMainWindow,
-    QMenu, QMenuBar, QPushButton, QSizePolicy,
-    QStatusBar, QTabWidget, QTextBrowser, QVBoxLayout,
-    QWidget)
+    QHeaderView, QLabel, QLayout, QLineEdit,
+    QMainWindow, QMenu, QMenuBar, QPushButton,
+    QSizePolicy, QSpacerItem, QStatusBar, QTabWidget,
+    QTableView, QTextBrowser, QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -120,6 +120,60 @@ class Ui_MainWindow(object):
         self.gridLayout_3.addLayout(self.verticalLayout, 1, 0, 1, 1)
 
         self.tabWidget_2.addTab(self.tab, "")
+        self.tab_2 = QWidget()
+        self.tab_2.setObjectName(u"tab_2")
+        self.gridLayout_2 = QGridLayout(self.tab_2)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_2 = QVBoxLayout()
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_3 = QVBoxLayout()
+        self.verticalLayout_3.setSpacing(5)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.tableView = QTableView(self.tab_2)
+        self.tableView.setObjectName(u"tableView")
+        self.tableView.setAutoScrollMargin(16)
+        self.tableView.verticalHeader().setMinimumSectionSize(21)
+        self.tableView.verticalHeader().setDefaultSectionSize(30)
+
+        self.verticalLayout_3.addWidget(self.tableView)
+
+        self.line_4 = QFrame(self.tab_2)
+        self.line_4.setObjectName(u"line_4")
+        self.line_4.setFrameShadow(QFrame.Shadow.Sunken)
+        self.line_4.setFrameShape(QFrame.Shape.HLine)
+
+        self.verticalLayout_3.addWidget(self.line_4)
+
+        self.horizontalLayout_2 = QHBoxLayout()
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.horizontalLayout_2.setContentsMargins(-1, -1, 8, -1)
+        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_2.addItem(self.horizontalSpacer)
+
+        self.pushButton_3 = QPushButton(self.tab_2)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setMinimumSize(QSize(0, 40))
+
+        self.horizontalLayout_2.addWidget(self.pushButton_3)
+
+        self.pushButton_2 = QPushButton(self.tab_2)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setMinimumSize(QSize(0, 40))
+
+        self.horizontalLayout_2.addWidget(self.pushButton_2)
+
+
+        self.verticalLayout_3.addLayout(self.horizontalLayout_2)
+
+
+        self.verticalLayout_2.addLayout(self.verticalLayout_3)
+
+
+        self.gridLayout_2.addLayout(self.verticalLayout_2, 0, 0, 1, 1)
+
+        self.tabWidget_2.addTab(self.tab_2, "")
         self.tab_3 = QWidget()
         self.tab_3.setObjectName(u"tab_3")
         self.gridLayout_5 = QGridLayout(self.tab_3)
@@ -263,6 +317,9 @@ class Ui_MainWindow(object):
         self.btn1.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u83b7\u53d6", None))
         self.btn2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u83b7\u53d6\u5546\u54c1", None))
+        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"\u66f4\u65b0\u9500\u91cf", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u505c\u6b62", None))
+        self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"\u66f4\u65b0\u9500\u91cf", None))
         self.Label_6.setText(QCoreApplication.translate("MainWindow", u"\u6570\u636e\u5e93\u7c7b\u578b", None))
         self.db_type_2.setItemText(0, QCoreApplication.translate("MainWindow", u"PostgreSQL", None))
         self.db_type_2.setItemText(1, QCoreApplication.translate("MainWindow", u"MySQL", None))

@@ -1,7 +1,7 @@
-import json
+from datetime import datetime
 
 from PySide6.QtCore import QSettings
-from sqlalchemy import create_engine, text, Column, String, BigInteger, Engine, JSON, Boolean, Numeric
+from sqlalchemy import create_engine, text, Column, String, BigInteger, Engine, JSON, Boolean, Numeric, DateTime, select
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 set_conf: QSettings = QSettings('settings.ini', QSettings.Format.IniFormat)
@@ -88,6 +88,7 @@ Base = declarative_base()
 engine = None
 Session = None
 
+
 def init_engine():
     global engine
     engine = get_db_engine(get_db_settings())
@@ -109,8 +110,10 @@ def get_session():
 class TemuSku(Base):
     __tablename__ = 'temu_sku'
     id = Column(BigInteger, primary_key=True, autoincrement=True)
+    create_time = Column(DateTime)  # 创建时间
     opt_list = Column(JSON)
     thumb_url = Column(String)
+    long_thumb_url = Column(String)
     ware_house_type = Column(BigInteger)
     benefit_text = Column(JSON)
     item_type = Column(BigInteger)
@@ -123,7 +126,7 @@ class TemuSku(Base):
     sold_quantity_percent = Column(BigInteger)
     p_rec = Column(JSON)
     activity_type = Column(BigInteger)
-    mall_id = Column(BigInteger)
+    mall_id = Column(BigInteger)  # 店铺id
     sales_num = Column(String)
     link_url = Column(String)
     extend_fields = Column(JSON)
@@ -144,6 +147,21 @@ class TemuSku(Base):
     adult_goods = Column(Boolean)
 
 
+class TemuSkuDetailToDo(Base):
+    __tablename__ = 'temu_sku_detail_todo'
+    id = Column(BigInteger, primary_key=True, autoincrement=True)
+    create_time = Column(DateTime)  # 创建时间
+    goods_id = Column(String)  # 商品id
+    goods_name = Column(String)  # 商品名称
+    last_time = Column(DateTime)  # 最后更新时间
+
+    def to_dict(self):
+        return {c.name: getattr(self, c.name).strftime("%Y-%m-%d %H:%M:%S") if isinstance(getattr(self, c.name),
+                                                                                          datetime) else getattr(self,
+                                                                                                                 c.name)
+                for c in self.__table__.columns}
+
+
 # 过滤字典，只保留模型定义的字段，并为缺失字段提供默认值
 def filter_dict_for_model(model, data):
     model_columns = {c.name for c in model.__table__.columns}
@@ -162,6 +180,22 @@ def add_temu_sku(r):
             temuSku = TemuSku(**_good)
             session.add(temuSku)
         session.commit()
+    except Exception as e:
+        session.rollback()
+        print(f"Error committing session: {e}")
+        raise e
+    finally:
+        session.close()
+
+
+# 获取待更新商品列表
+def get_temu_sku_detail_todo_list() -> list[dict]:
+    try:
+        session = get_session()
+        stmt = select(TemuSkuDetailToDo)
+        resultSet = session.execute(stmt)
+        results = list(map(lambda x: x.to_dict(), resultSet.scalars().all()))
+        return results
     except Exception as e:
         session.rollback()
         print(f"Error committing session: {e}")

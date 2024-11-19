@@ -8,13 +8,14 @@ from typing import Tuple
 import requests
 import schedule
 from PySide6 import QtWidgets
-from PySide6.QtCore import Slot
+from PySide6.QtCore import Slot, QItemSelectionModel
 from PySide6.QtGui import QAction
 from PySide6.QtWidgets import QDialog, QTreeWidgetItem
 
 from controller.category_worker import CategoryFetchWorkThread
 from controller.connect_worker import ConnectTestWorkThread
-from controller.db import get_db_settings, save_db_settings
+from controller.db import get_db_settings, save_db_settings, get_temu_sku_detail_todo_list
+from controller.model.TaskModel import TaskModel
 from controller.support import show_message
 from ui.ui_category import Ui_Dialog
 from ui.ui_home import Ui_MainWindow
@@ -115,8 +116,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     @Slot()
     def tab_changed(self, index: int):
         try:
-            print(index)
-            if index == 1:
+            if self.tabWidget_2.tabText(index) == '系统配置':
                 settings = get_db_settings()
                 self.db_type_2.setCurrentText(settings['db_type'])
                 self.host_2.setText(settings['db_host'])
@@ -124,7 +124,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 self.user_2.setText(settings['db_user'])
                 self.password_2.setText(settings['db_password'])
                 self.database.setText(settings['db_database'])
-            pass
+            elif self.tabWidget_2.tabText(index) == '更新销量':
+                list = get_temu_sku_detail_todo_list()
+                model = TaskModel(list)
+                self.tableView.setModel(model)
+                self.tableView.setSelectionModel(QItemSelectionModel(model))
+                pass
         except BaseException as e:
             logging.exception(e)
             show_message(str(e), True)
@@ -233,6 +238,3 @@ class ProxyDialog(QtWidgets.QDialog, Ui_Proxy):
 
     def reject(self):
         super().reject()
-
-
-
