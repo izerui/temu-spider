@@ -93,7 +93,7 @@ class CategoryFetchWorkThread(QThread):
                 if page.url.startswith("https://www.temu.com/bgn_verification.html"):
                     try:
                         self.process.emit("警告: 出现验证码页面。")
-                        page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=3000)
+                        page.wait_for_selector("div._2ugbvrpI._3E4sGl93._28_m8Owy.R8mNGZXv._2rMaxXAr", timeout=30000)
                         continue
                     except:
                         pass
@@ -157,23 +157,12 @@ class CategoryFetchWorkThread(QThread):
 
             self.process.emit(f'信息: 模拟移动鼠标。')
 
-            # 定义 Z 字型的三个点
-            start_x, start_y = random.randint(0, 200), random.randint(0, 200)  # 左上角
-            end_x, end_y = random.randint(0, 1900), random.randint(0, 1900)  # 右下角
-            middle_x, middle_y = end_x, start_y  # 右上角
-            bottom_left_x, bottom_left_y = start_x, end_y  # 左下角
-
-            # 移动到起点
-            page.mouse.move(start_x, start_y, steps=100)
+            # 随机按三个位置移动鼠标
+            page.mouse.move(random.randint(0, 1000), random.randint(0, 1000), steps=100)
             time.sleep(1)
-            # 第一步：从左上角移动到右上角
-            page.mouse.move(middle_x, middle_y, steps=100)
+            page.mouse.move(random.randint(0, 1000), random.randint(0, 1000), steps=100)
             time.sleep(1)
-            # 第二步：从右上角移动到左下角
-            page.mouse.move(bottom_left_x, bottom_left_y, steps=100)
-            time.sleep(1)
-            # 第三步：从左下角移动到右下角
-            page.mouse.move(end_x, end_y, steps=100)
+            page.mouse.move(random.randint(0, 1000), random.randint(0, 1000), steps=100)
             time.sleep(1)
 
             # 滚动指定的距离，例如向下滚动 1000 像素

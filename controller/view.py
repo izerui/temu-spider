@@ -175,10 +175,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def show_tree_dialog(self, *args, **kwargs):
         if not self.dialog:
             self.dialog = CategoryDialog(self)
+        self.dialog.show()
         if self.dialog.exec() == QDialog.Accepted:
             item = self.dialog.get_select_item()
             self.lineEdit.setText(f'https://www.temu.com{item["href"]}')
-        self.dialog.show()
 
     @Slot()
     def menu_action(self, action: QAction):
