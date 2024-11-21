@@ -11,7 +11,7 @@ from controller.db import add_temu_sku
 
 
 # 爬取分类商品
-class CategoryFetchWorkThread(QThread):
+class CategoryFetchThread(QThread):
     process = Signal(str)
 
     def __init__(self, proxy, page_open_url):

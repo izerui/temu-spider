@@ -5,7 +5,7 @@ from controller.db import get_db_engine
 
 
 # 测试连接
-class ConnectTestWorkThread(QThread):
+class ConnectTestThread(QThread):
     result = Signal(tuple)
 
     def __init__(self, settings: dict):

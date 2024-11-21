@@ -147,6 +147,21 @@ class TemuSku(Base):
     adult_goods = Column(Boolean)
 
 
+class TemuSkuDetail(Base):
+    __tablename__ = 'temu_sku_detail'
+    id = Column(BigInteger, primary_key=True, autoincrement=True)
+    create_time = Column(DateTime)  # 创建时间
+    goods_id = Column(String)  # 商品id
+    goods_name = Column(String)  # 商品名称
+    last_time = Column(DateTime)  # 最后更新时间
+
+    def to_dict(self):
+        return {c.name: getattr(self, c.name).strftime("%Y-%m-%d %H:%M:%S") if isinstance(getattr(self, c.name),
+                                                                                          datetime) else getattr(self,
+                                                                                                                 c.name)
+                for c in self.__table__.columns}
+
+
 class TemuSkuDetailToDo(Base):
     __tablename__ = 'temu_sku_detail_todo'
     id = Column(BigInteger, primary_key=True, autoincrement=True)

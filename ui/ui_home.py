@@ -302,6 +302,8 @@ class Ui_MainWindow(object):
         self.tabWidget_2.currentChanged.connect(MainWindow.tab_changed)
         self.pushButton.clicked.connect(MainWindow.show_tree_dialog)
         self.menuBar.triggered.connect(MainWindow.menu_action)
+        self.pushButton_3.clicked.connect(MainWindow.fetch_increment)
+        self.pushButton_2.clicked.connect(MainWindow.stop_fetch_increment)
 
         self.tabWidget_2.setCurrentIndex(0)
 

@@ -639,6 +639,38 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>fetch_increment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>505</x>
+     <y>420</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>473</x>
+     <y>-24</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>stop_fetch_increment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>fetch_recommended()</slot>
@@ -648,5 +680,7 @@
   <slot>stop_fetch_recommended()</slot>
   <slot>show_tree_dialog()</slot>
   <slot>menu_action()</slot>
+  <slot>fetch_increment()</slot>
+  <slot>stop_fetch_increment()</slot>
  </slots>
 </ui>
